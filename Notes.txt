@@ -11,10 +11,11 @@ This guide is for Arch linux/arch based distribution:
 			yay -R (yay -Qdtq)
 
 	0.Install necessary softwares
-
+		In manjaro first do this:
+			0.yay -Rcns manjaro-hello cheese firefox
 		0.sudo pacman -Syyu
 		1.sudo pacman -S yay
-		2.yay -S screenfetch google-chrome brave vlc intellij code qbittorrent xdman handbrake fish sublime-text gimp libreoffice-still mlocate timeshift
+		2.yay -S neofetch google-chrome brave vlc intellij code qbittorrent xdman handbrake fish sublime-text gimp libreoffice-still mlocate timeshift
 			add command of ./install.sh (Embed it into myScript.sh) to unzip and copy existing sublime config file to the desired location.
 		3.ohmyfish (curl -L https://get.oh-my.fish | fish) stopped that welcome message of fish (set fish_greeting)		
 		
@@ -27,6 +28,8 @@ This guide is for Arch linux/arch based distribution:
 		5.yay -S virt-manager qemu vde2 ebtables dnsmasq bridge-utils openbsd-netcat
 		6.sudo systemctl enable libvirtd.service
 		7.sudo systemctl start libvirtd.service
+		
+		After everything run: yay -Rcns $(yay -Qtdq)
 
 	3.Customizing the linux:
 
