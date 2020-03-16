@@ -16,3 +16,10 @@ Basics of Linux:
 	3.Youtube-dl
 
 		youtube-dl --write-auto-sub --recode-video mp4 youtube.url...
+		
+		To download songs from youtube:
+		
+			youtube-dl -ciw --extract-audio --audio-format mp3 youtube.url...
+			
+		(USE -ciw FOR ANY PLAYLIST)
+			
