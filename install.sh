@@ -118,17 +118,19 @@ while true; do
     read -p "" yn
     case $yn in
         [Yy]*|"" )
-			message "changing default shell to zsh"
-			chsh -s /bin/zsh
-			sudo chsh -s /bin/zsh
-
 			message "configuring zsh"
-			sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"		
+			#sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"		
 			git clone https://github.com/zsh-users/zsh-autosuggestions
 			mv zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/
 			git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+			
+			message "copying zshrc"
 			rm -rf ~/.zshrc
 			cp config-files/.zshrc ~/
+
+			message "changing default shell to zsh"
+			chsh -s /bin/zsh
+			sudo chsh -s /bin/zsh
 	       	break;;
         [Nn]* ) break;;
         * ) echo "Please answer Y/y or N/n as yes or no.";;
