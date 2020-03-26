@@ -1,0 +1,1953 @@
+{
+	"folder_history":
+	[
+		"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions",
+		"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/605 Div3",
+		"/home/steinum/Documents/my_code",
+		"/home/steinum/FourWheelerRacing/main",
+		"/home/steinum/Guardian-of-the-Galaxy/Galaxy"
+	],
+	"last_version": 3211,
+	"last_window_id": 16,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"tem",
+						"temp1"
+					],
+					[
+						"te",
+						"temp1"
+					],
+					[
+						"cou",
+						"count"
+					],
+					[
+						"co",
+						"count"
+					],
+					[
+						"c",
+						"count"
+					],
+					[
+						"s",
+						"str"
+					],
+					[
+						"ve",
+						"vec"
+					],
+					[
+						"t",
+						"tri"
+					],
+					[
+						"re",
+						"result"
+					],
+					[
+						"en",
+						"endmark"
+					],
+					[
+						"get",
+						"getchar"
+					],
+					[
+						"tre",
+						"true"
+					],
+					[
+						"Cara",
+						"setCharacterSize"
+					],
+					[
+						"He",
+						"Help"
+					],
+					[
+						"is",
+						"is_help"
+					],
+					[
+						"is_h",
+						"is_help"
+					],
+					[
+						"set",
+						"setPosition"
+					],
+					[
+						"Help",
+						"Help_t"
+					],
+					[
+						"help",
+						"Help"
+					],
+					[
+						"timer",
+						"timer_stone"
+					],
+					[
+						"tiem",
+						"timer_fattor"
+					],
+					[
+						"count",
+						"count_frame"
+					],
+					[
+						"clo",
+						"close_b"
+					],
+					[
+						"close",
+						"close_w"
+					],
+					[
+						"high",
+						"highscore_t"
+					],
+					[
+						"hi",
+						"highscore_t"
+					],
+					[
+						"win",
+						"window1"
+					],
+					[
+						"new",
+						"new_resume"
+					],
+					[
+						"menu",
+						"menu_m"
+					],
+					[
+						"con",
+						"coin_m"
+					],
+					[
+						"Sound",
+						"SoundBuffer"
+					],
+					[
+						"open",
+						"openFromFile"
+					],
+					[
+						"h",
+						"highscore"
+					],
+					[
+						"main",
+						"main_menu"
+					],
+					[
+						"game",
+						"game_over_s"
+					],
+					[
+						"game_",
+						"game_over_t"
+					],
+					[
+						"men",
+						"menu_bar_w"
+					],
+					[
+						"coin",
+						"coin_point"
+					],
+					[
+						"coin_",
+						"coin_image_number"
+					],
+					[
+						"heal",
+						"health"
+					],
+					[
+						"to",
+						"to_string"
+					],
+					[
+						"text",
+						"text_health"
+					],
+					[
+						"load",
+						"loadFromFile"
+					],
+					[
+						"Hlea",
+						"HealthBar"
+					],
+					[
+						"Heal",
+						"HealthBar"
+					],
+					[
+						"Wi",
+						"win_W"
+					],
+					[
+						"bli",
+						"blink"
+					],
+					[
+						"fattor",
+						"fattor_blink_flag"
+					],
+					[
+						"fatto",
+						"fattor_blink_flag"
+					],
+					[
+						"cha",
+						"chaka1"
+					],
+					[
+						"int",
+						"intersects"
+					],
+					[
+						"blnk",
+						"blink_time"
+					],
+					[
+						"stone",
+						"stone_coin"
+					],
+					[
+						"sto",
+						"stone_coin"
+					],
+					[
+						"fat",
+						"fattor1"
+					],
+					[
+						"time",
+						"timer1"
+					],
+					[
+						"pat",
+						"pathor"
+					],
+					[
+						"op",
+						"op_cnt"
+					],
+					[
+						"loa",
+						"load_pathor"
+					],
+					[
+						"WIN",
+						"win_W"
+					],
+					[
+						"pa",
+						"pathor"
+					],
+					[
+						"k",
+						"knapsack"
+					],
+					[
+						"file",
+						"file_base_name"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/my_cpp.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/my_cpp.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/my_cpp.sublime-build",
+							""
+						],
+						[
+							"Packages/User/SFML251.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/my_cpp.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						],
+						[
+							"Packages/User/my_java.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/my_java.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"side",
+						"Side Bar: Refresh"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"Snippet: incl",
+						"Snippet: #include <…>"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"ope",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"open",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"fastolympic",
+						"FastOlympicCoding: Run"
+					],
+					[
+						"fast",
+						"FastOlympicCoding: Select Frame"
+					],
+					[
+						"run",
+						"FastOlympicCoding: Run"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remoe",
+						"Package Control: Remove Package"
+					],
+					[
+						"command",
+						"Javatar: Browse Commands..."
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"resou",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"instakl",
+						"Package Control: Install Package"
+					],
+					[
+						"rand",
+						"Random:Int"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"re",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"res",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"reso",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"resour",
+						"PackageResourceViewer: Open Resource"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 125.0,
+				"history":
+				[
+					"focus_group",
+					"focus_group ",
+					"focus_group {\"group\": 1}",
+					"focus_group {\"group\": 0}",
+					"\tfocus_group {\"group\": 0}",
+					"reindent ",
+					"sublime.log_commands(True)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/26A.Almost_Prime.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/25A. IQ Test.cpp",
+				"/home/shahriardhruvo/untitled.txt",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/talha.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/600 Div2/A. Single Push",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/605 Div3/B.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1260A. Heating.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/test.java",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/605 Div3/A.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1163A. Eating Soup.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1225A. Forgetting Things.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1194A. Remove a Progression.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1206A. Choose Two Numbers.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1088A. Ehab and another construction problem.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1088B. Ehab and subtraction.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/672B. Different is Good.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1255A. Changing Volume.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1248B. Grow The Tree.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/148A. Insomnia cure.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/822A. I'm bored with life.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/898A. Rounding.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1200A. Hotelier.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1186A. Vus the Cossack and a Contest.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/509A. Maximum in Table.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/C1. Good Numbers (easy version).cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1249C2. Good Numbers (hard version).cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/Tanvir.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/442.Matrix_Chain_Multiplication.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/B. Minimize the Permutation.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1243B1. Character Swap (Easy Version).cpp",
+				"/home/steinum/Documents/my_code/orderset.cpp",
+				"/home/steinum/Documents/my_code/6a.cpp",
+				"/home/steinum/Documents/my_code/input.txt",
+				"/home/steinum/Documents/my_code/455b.cpp",
+				"/home/steinum/Documents/my_code/spojphonelst.cpp",
+				"/home/steinum/Documents/my_code/output.txt",
+				"/home/steinum/Documents/my_code/loj1269.cpp",
+				"/home/steinum/Documents/my_code/spojdict.cpp",
+				"/home/steinum/FourWheelerRacing/main/game.cpp",
+				"/home/steinum/Documents/my_code/455B.cpp",
+				"/home/steinum/.config/sublime-text-3/Packages/User/SFML251.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/Python/Python.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/User/my_java.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/User/sout.sublime-snippet",
+				"/home/steinum/Documents/my_code/test.java",
+				"/home/steinum/.config/sublime-text-3/Packages/User/my_cpp.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/User/header.sublime-snippet",
+				"/home/steinum/idne/1106-c++11/A/455b.cpp",
+				"/home/steinum/idne/1106-c++11/A/A.cpp",
+				"/home/steinum/Downloads/TRIE.CPP",
+				"/home/steinum/Documents/my_code/1106B.cpp",
+				"/home/steinum/Documents/my_code/1106A.cpp",
+				"/home/steinum/756A/756A.cpp",
+				"/home/steinum/cf.py",
+				"/home/steinum/idne/1106-c++11/A.cpp",
+				"/home/steinum/idne/template.cpp",
+				"/home/steinum/idne/utils/config.py",
+				"/home/steinum/Documents/my_code/adjLISTwithWeight.cpp",
+				"/home/steinum/.config/sublime-text-3/Packages/User/Trie.sublime-snippet",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/AutoHideSidebar.py",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/README.md",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/package-metadata.json",
+				"/home/steinum/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+				"/home/steinum/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+				"/home/steinum/Documents/my_code/trie.cpp",
+				"/home/steinum/Documents/my_code/string.cpp",
+				"/home/steinum/FourWheelerRacing/main/pathor.cpp",
+				"/home/steinum/.config/sublime-text-3/Packages/UbuntuPaste/Default (Linux).sublime-keymap",
+				"/home/steinum/Documents/my_code/install.sh",
+				"/home/steinum/Documents/my_code/sfml.sh",
+				"/home/steinum/FourWheelerRacing/main/pathor.h",
+				"/home/steinum/Documents/my_code/test.py",
+				"/home/steinum/Documents/my_code/new.java",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/main.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/GameMapMaker.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Enemy.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Game.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/GameMapMaker.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Particle.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Pickup.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Player.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Stage.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TextTag.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Tile.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/WButton.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Game.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Player.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/WButton.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Upgrade.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Upgrade.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TileArr.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Tile.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TextTag.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Stage.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Powerup.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Powerup.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Pickup.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Particle.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Map.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Map.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/MainMenu.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/MainMenu.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Boss.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Boss.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Bullet.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Bullet.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/dArr.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Enemy.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/EnemySpawner.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/EnemySpawner.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Galaxy.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Galaxy.h",
+				"/home/steinum/gameproject2/main.cpp",
+				"/home/steinum/gameproject2/Dead__001.png",
+				"/home/steinum/gameproject2/fade.ogg",
+				"/home/steinum/gameproject2/character.hpp",
+				"/home/steinum/Project_work_2/game/main.cpp",
+				"/home/steinum/Millantis_Game/millantis.cpp",
+				"/home/steinum/Documents/my_code/test2.cpp",
+				"/home/steinum/Fun-Game/main.cpp",
+				"/home/steinum/FourWheelerRacing/main/java.cpp",
+				"/home/steinum/project-2-Game/Sfml project/Bala3.cpp",
+				"/home/steinum/FourWheelerRacing/main/life.cpp",
+				"/home/steinum/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle",
+				"/home/steinum/Documents/my_code/test.cpp",
+				"/home/steinum/project-2-Game/Sfml project/BALA2.cpp",
+				"/home/steinum/swe-project-2/main.cpp",
+				"/home/steinum/project-2-Game/Sfml project/main.cpp"
+			],
+			"find":
+			{
+				"height": 31.0
+			},
+			"find_in_files":
+			{
+				"height": 99.0,
+				"where_history":
+				[
+					"/home/steinum/Guardian-of-the-Galaxy"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"a",
+					"f",
+					"a",
+					"cout",
+					"curr->val",
+					"even",
+					"del",
+					"true",
+					"x",
+					"auto",
+					"// ",
+					"'a'",
+					"trie",
+					"'a'",
+					"auto",
+					"'0",
+					"del",
+					"'a'",
+					"ckberry",
+					"'a'",
+					"\"=",
+					"a==",
+					"setColor",
+					"Game",
+					"playerNr",
+					"SFML\\",
+					"\\",
+					"ha_timer",
+					"\\",
+					"pic//",
+					"car2x",
+					"Car2",
+					"car2",
+					"Car2",
+					"car2",
+					"Car2",
+					"car2",
+					"pic//car2",
+					"pic//",
+					"//",
+					"setColor",
+					"menu_bar_b",
+					"c_s_b",
+					"close_b",
+					"c_s_b",
+					"exit",
+					"m_s",
+					"timer",
+					"move",
+					"draw",
+					"new_menu",
+					"menu",
+					"menu_sp",
+					"new_game",
+					"menu_sp",
+					"new_game",
+					"menu_sp",
+					"new_game_t",
+					"finish_music",
+					"song",
+					"bgm_finish",
+					"s_m",
+					"stone_m",
+					"@game",
+					"c_m",
+					"coin_m",
+					"30",
+					"me(30);",
+					"r_m",
+					"right_move",
+					"song",
+					"forhad_music",
+					"@game",
+					"window",
+					"#",
+					"#file/fattor1.png",
+					"# file/fattor1.png",
+					"point",
+					"setColor",
+					"font",
+					"isButtonPressed",
+					"White",
+					"400",
+					"480",
+					"setString",
+					".setP",
+					"setString",
+					",",
+					"about",
+					"new_game",
+					"getPosition",
+					"-100",
+					"500",
+					"450",
+					"500",
+					"400",
+					"0.2",
+					"(0.2,0.2)",
+					"scale",
+					"setPosition",
+					"loadFromFile",
+					"setTexture",
+					"// ",
+					"10",
+					"scale",
+					"199.5",
+					"rotate",
+					"0.5",
+					"340.5-239.5",
+					"489",
+					"687",
+					"706.5",
+					"919.5",
+					"919",
+					"setPosition",
+					"919.5",
+					"836.5",
+					"696.5",
+					"706.5",
+					"setOrigin",
+					"526",
+					"217.5",
+					".0",
+					"501",
+					"501.0",
+					"511.5",
+					"500",
+					"rotate(90);"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"setFillColor",
+					"SFML/"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 35.0
+			},
+			"menu_visible": true,
+			"output.astyle_error_message":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 151.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"test",
+						"test.java"
+					],
+					[
+						"java",
+						"test.java"
+					],
+					[
+						"in",
+						"install.sh"
+					],
+					[
+						"player",
+						"Galaxy/Player.h"
+					],
+					[
+						".java",
+						"test.java"
+					],
+					[
+						"test2.c",
+						"test2.cpp"
+					],
+					[
+						"tst",
+						"test2.cpp"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"tem",
+						"temp1"
+					],
+					[
+						"te",
+						"temp1"
+					],
+					[
+						"cou",
+						"count"
+					],
+					[
+						"co",
+						"count"
+					],
+					[
+						"c",
+						"count"
+					],
+					[
+						"s",
+						"str"
+					],
+					[
+						"ve",
+						"vec"
+					],
+					[
+						"t",
+						"tri"
+					],
+					[
+						"re",
+						"result"
+					],
+					[
+						"en",
+						"endmark"
+					],
+					[
+						"get",
+						"getchar"
+					],
+					[
+						"tre",
+						"true"
+					],
+					[
+						"Cara",
+						"setCharacterSize"
+					],
+					[
+						"He",
+						"Help"
+					],
+					[
+						"is",
+						"is_help"
+					],
+					[
+						"is_h",
+						"is_help"
+					],
+					[
+						"set",
+						"setPosition"
+					],
+					[
+						"Help",
+						"Help_t"
+					],
+					[
+						"help",
+						"Help"
+					],
+					[
+						"timer",
+						"timer_stone"
+					],
+					[
+						"tiem",
+						"timer_fattor"
+					],
+					[
+						"count",
+						"count_frame"
+					],
+					[
+						"clo",
+						"close_b"
+					],
+					[
+						"close",
+						"close_w"
+					],
+					[
+						"high",
+						"highscore_t"
+					],
+					[
+						"hi",
+						"highscore_t"
+					],
+					[
+						"win",
+						"window1"
+					],
+					[
+						"new",
+						"new_resume"
+					],
+					[
+						"menu",
+						"menu_m"
+					],
+					[
+						"con",
+						"coin_m"
+					],
+					[
+						"Sound",
+						"SoundBuffer"
+					],
+					[
+						"open",
+						"openFromFile"
+					],
+					[
+						"h",
+						"highscore"
+					],
+					[
+						"main",
+						"main_menu"
+					],
+					[
+						"game",
+						"game_over_s"
+					],
+					[
+						"game_",
+						"game_over_t"
+					],
+					[
+						"men",
+						"menu_bar_w"
+					],
+					[
+						"coin",
+						"coin_point"
+					],
+					[
+						"coin_",
+						"coin_image_number"
+					],
+					[
+						"heal",
+						"health"
+					],
+					[
+						"to",
+						"to_string"
+					],
+					[
+						"text",
+						"text_health"
+					],
+					[
+						"load",
+						"loadFromFile"
+					],
+					[
+						"Hlea",
+						"HealthBar"
+					],
+					[
+						"Heal",
+						"HealthBar"
+					],
+					[
+						"Wi",
+						"win_W"
+					],
+					[
+						"bli",
+						"blink"
+					],
+					[
+						"fattor",
+						"fattor_blink_flag"
+					],
+					[
+						"fatto",
+						"fattor_blink_flag"
+					],
+					[
+						"cha",
+						"chaka1"
+					],
+					[
+						"int",
+						"intersects"
+					],
+					[
+						"blnk",
+						"blink_time"
+					],
+					[
+						"stone",
+						"stone_coin"
+					],
+					[
+						"sto",
+						"stone_coin"
+					],
+					[
+						"fat",
+						"fattor1"
+					],
+					[
+						"time",
+						"timer1"
+					],
+					[
+						"pat",
+						"pathor"
+					],
+					[
+						"op",
+						"op_cnt"
+					],
+					[
+						"loa",
+						"load_pathor"
+					],
+					[
+						"WIN",
+						"win_W"
+					],
+					[
+						"pa",
+						"pathor"
+					],
+					[
+						"k",
+						"knapsack"
+					],
+					[
+						"file",
+						"file_base_name"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "#include<bits/stdc++.h>\n#define FastIO ios_base::sync_with_stdio(false)\n\nusing namespace std;\n\nint main()\n{\n\tFastIO;\n\t\n\t\n\treturn 0;\n}",
+					"file": "/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1307A. Cow and Haybales.cpp",
+					"file_size": 0,
+					"file_write_time": 132265262220000000,
+					"settings":
+					{
+						"buffer_size": 133,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/shahriardhruvo/Documents/my_code/input.txt",
+					"settings":
+					{
+						"buffer_size": 144,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/shahriardhruvo/Documents/my_code/output.txt",
+					"settings":
+					{
+						"buffer_size": 96,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/User/my_cpp.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/my_cpp.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/my_cpp.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/my_cpp.sublime-build",
+							""
+						],
+						[
+							"Packages/User/SFML251.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/my_cpp.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						],
+						[
+							"Packages/User/my_java.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/my_java.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"side",
+						"Side Bar: Refresh"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"Snippet: incl",
+						"Snippet: #include <…>"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"ope",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"open",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"fastolympic",
+						"FastOlympicCoding: Run"
+					],
+					[
+						"fast",
+						"FastOlympicCoding: Select Frame"
+					],
+					[
+						"run",
+						"FastOlympicCoding: Run"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remoe",
+						"Package Control: Remove Package"
+					],
+					[
+						"command",
+						"Javatar: Browse Commands..."
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"resou",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"instakl",
+						"Package Control: Install Package"
+					],
+					[
+						"rand",
+						"Random:Int"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"re",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"res",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"reso",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"resour",
+						"PackageResourceViewer: Open Resource"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 125.0,
+				"history":
+				[
+					"focus_group",
+					"focus_group ",
+					"focus_group {\"group\": 1}",
+					"focus_group {\"group\": 0}",
+					"\tfocus_group {\"group\": 0}",
+					"reindent ",
+					"sublime.log_commands(True)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/steinum/Documents/my_code"
+			],
+			"file_history":
+			[
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1284A. New Year and Naming.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1296D. Fight with Monsters.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1303A. Erasing Zeroes.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/630A. Again Twenty Five!.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/804A.Find Amir.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/805A.Fake NP.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1301Three Strings.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1301Three Strings.py",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1132Regular Bracket Sequence.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1132Regular Bracket Sequence.py",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/26A.Almost_Prime.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/25A. IQ Test.cpp",
+				"/home/shahriardhruvo/untitled.txt",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/talha.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/600 Div2/A. Single Push",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/605 Div3/B.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1260A. Heating.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/test.java",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/605 Div3/A.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1163A. Eating Soup.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1225A. Forgetting Things.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1194A. Remove a Progression.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1206A. Choose Two Numbers.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1088A. Ehab and another construction problem.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1088B. Ehab and subtraction.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/672B. Different is Good.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1255A. Changing Volume.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1248B. Grow The Tree.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/148A. Insomnia cure.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/822A. I'm bored with life.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/898A. Rounding.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1200A. Hotelier.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1186A. Vus the Cossack and a Contest.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/509A. Maximum in Table.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/C1. Good Numbers (easy version).cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1249C2. Good Numbers (hard version).cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/Tanvir.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/442.Matrix_Chain_Multiplication.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/B. Minimize the Permutation.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1243B1. Character Swap (Easy Version).cpp",
+				"/home/steinum/Documents/my_code/orderset.cpp",
+				"/home/steinum/Documents/my_code/6a.cpp",
+				"/home/steinum/Documents/my_code/input.txt",
+				"/home/steinum/Documents/my_code/455b.cpp",
+				"/home/steinum/Documents/my_code/spojphonelst.cpp",
+				"/home/steinum/Documents/my_code/output.txt",
+				"/home/steinum/Documents/my_code/loj1269.cpp",
+				"/home/steinum/Documents/my_code/spojdict.cpp",
+				"/home/steinum/FourWheelerRacing/main/game.cpp",
+				"/home/steinum/Documents/my_code/455B.cpp",
+				"/home/steinum/.config/sublime-text-3/Packages/User/SFML251.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/Python/Python.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/User/my_java.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/User/sout.sublime-snippet",
+				"/home/steinum/Documents/my_code/test.java",
+				"/home/steinum/.config/sublime-text-3/Packages/User/my_cpp.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/User/header.sublime-snippet",
+				"/home/steinum/idne/1106-c++11/A/455b.cpp",
+				"/home/steinum/idne/1106-c++11/A/A.cpp",
+				"/home/steinum/Downloads/TRIE.CPP",
+				"/home/steinum/Documents/my_code/1106B.cpp",
+				"/home/steinum/Documents/my_code/1106A.cpp",
+				"/home/steinum/756A/756A.cpp",
+				"/home/steinum/cf.py",
+				"/home/steinum/idne/1106-c++11/A.cpp",
+				"/home/steinum/idne/template.cpp",
+				"/home/steinum/idne/utils/config.py",
+				"/home/steinum/Documents/my_code/adjLISTwithWeight.cpp",
+				"/home/steinum/.config/sublime-text-3/Packages/User/Trie.sublime-snippet",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/AutoHideSidebar.py",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/README.md",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/package-metadata.json",
+				"/home/steinum/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+				"/home/steinum/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+				"/home/steinum/Documents/my_code/trie.cpp",
+				"/home/steinum/Documents/my_code/string.cpp",
+				"/home/steinum/FourWheelerRacing/main/pathor.cpp",
+				"/home/steinum/.config/sublime-text-3/Packages/UbuntuPaste/Default (Linux).sublime-keymap",
+				"/home/steinum/Documents/my_code/install.sh",
+				"/home/steinum/Documents/my_code/sfml.sh",
+				"/home/steinum/FourWheelerRacing/main/pathor.h",
+				"/home/steinum/Documents/my_code/test.py",
+				"/home/steinum/Documents/my_code/new.java",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/main.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/GameMapMaker.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Enemy.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Game.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/GameMapMaker.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Particle.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Pickup.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Player.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Stage.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TextTag.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Tile.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/WButton.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Game.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Player.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/WButton.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Upgrade.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Upgrade.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TileArr.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Tile.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TextTag.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Stage.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Powerup.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Powerup.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Pickup.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Particle.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Map.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Map.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/MainMenu.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/MainMenu.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Boss.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Boss.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Bullet.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Bullet.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/dArr.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Enemy.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/EnemySpawner.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/EnemySpawner.h",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Galaxy.cpp",
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Galaxy.h",
+				"/home/steinum/gameproject2/main.cpp",
+				"/home/steinum/gameproject2/Dead__001.png",
+				"/home/steinum/gameproject2/fade.ogg",
+				"/home/steinum/gameproject2/character.hpp",
+				"/home/steinum/Project_work_2/game/main.cpp",
+				"/home/steinum/Millantis_Game/millantis.cpp"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 99.0,
+				"where_history":
+				[
+					"/home/steinum/Guardian-of-the-Galaxy"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"a",
+					"f",
+					"a",
+					"cout",
+					"curr->val",
+					"even",
+					"del",
+					"true",
+					"x",
+					"auto",
+					"// ",
+					"'a'",
+					"trie",
+					"'a'",
+					"auto",
+					"'0",
+					"del",
+					"'a'",
+					"ckberry",
+					"'a'",
+					"\"=",
+					"a==",
+					"setColor",
+					"Game",
+					"playerNr",
+					"SFML\\",
+					"\\",
+					"ha_timer",
+					"\\",
+					"pic//",
+					"car2x",
+					"Car2",
+					"car2",
+					"Car2",
+					"car2",
+					"Car2",
+					"car2",
+					"pic//car2",
+					"pic//",
+					"//",
+					"setColor",
+					"menu_bar_b",
+					"c_s_b",
+					"close_b",
+					"c_s_b",
+					"exit",
+					"m_s",
+					"timer",
+					"move",
+					"draw",
+					"new_menu",
+					"menu",
+					"menu_sp",
+					"new_game",
+					"menu_sp",
+					"new_game",
+					"menu_sp",
+					"new_game_t",
+					"finish_music",
+					"song",
+					"bgm_finish",
+					"s_m",
+					"stone_m",
+					"@game",
+					"c_m",
+					"coin_m",
+					"30",
+					"me(30);",
+					"r_m",
+					"right_move",
+					"song",
+					"forhad_music",
+					"@game",
+					"window",
+					"#",
+					"#file/fattor1.png",
+					"# file/fattor1.png",
+					"point",
+					"setColor",
+					"font",
+					"isButtonPressed",
+					"White",
+					"400",
+					"480",
+					"setString",
+					".setP",
+					"setString",
+					",",
+					"about",
+					"new_game",
+					"getPosition",
+					"-100",
+					"500",
+					"450",
+					"500",
+					"400",
+					"0.2",
+					"(0.2,0.2)",
+					"scale",
+					"setPosition",
+					"loadFromFile",
+					"setTexture",
+					"// ",
+					"10",
+					"scale",
+					"199.5",
+					"rotate",
+					"0.5",
+					"340.5-239.5",
+					"489",
+					"687",
+					"706.5",
+					"919.5",
+					"919",
+					"setPosition",
+					"919.5",
+					"836.5",
+					"696.5",
+					"706.5",
+					"setOrigin",
+					"526",
+					"217.5",
+					".0",
+					"501",
+					"501.0",
+					"511.5",
+					"500",
+					"rotate(90);"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"setFillColor",
+					"SFML/"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/steinum/Documents/my_code"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1307A. Cow and Haybales.cpp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 133,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										118,
+										118
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 1,
+							"file": "/home/shahriardhruvo/Documents/my_code/input.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 144,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										144,
+										144
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 2,
+							"file": "/home/shahriardhruvo/Documents/my_code/output.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 96,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 35.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						2
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					],
+					[
+						1,
+						1,
+						2,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.748332021458,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.480068502089,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.astyle_error_message":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 151.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,960,28,1920,1054,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 56.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"test",
+						"test.java"
+					],
+					[
+						"java",
+						"test.java"
+					],
+					[
+						"in",
+						"install.sh"
+					],
+					[
+						"player",
+						"Galaxy/Player.h"
+					],
+					[
+						".java",
+						"test.java"
+					],
+					[
+						"test2.c",
+						"test2.cpp"
+					],
+					[
+						"tst",
+						"test2.cpp"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+				"last_automatic_layout":
+				[
+					[
+						0,
+						0,
+						1,
+						2
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					],
+					[
+						1,
+						1,
+						2,
+						2
+					]
+				]
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

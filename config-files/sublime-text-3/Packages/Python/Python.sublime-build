@@ -1,0 +1,4 @@
+{
+	"shell_cmd": "timeout 10s python3 -u \"$file\"<~/Documents/my_code/input.txt>~/Documents/my_code/output.txt",
+	"selector": "source.python",
+}

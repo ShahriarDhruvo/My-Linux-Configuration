@@ -1,0 +1,4 @@
+[
+	{ "keys": ["f9"], "command": "chain", "args": { "commands": [["focus_group",{"group":0}],["build"]]}},
+
+]
