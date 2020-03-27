@@ -55,7 +55,7 @@ while true; do
         [Yy]*|"" )
 			message "installing necessary tools"
 			#yay -S intellij #This seems to be depricated
-			yay -S base-devel zsh tlp neofetch google-chrome brave vlc code qbittorrent xdman handbrake sublime-text gimp libreoffice-still mlocate timeshift
+			yay -S base-devel zsh vim tlp neofetch google-chrome brave vlc code qbittorrent xdman handbrake sublime-text gimp libreoffice-still mlocate timeshift
 	       	
 	       	message "configuring the tools"
 			alias ll="ls -la"
@@ -125,13 +125,17 @@ while true; do
     case $yn in
         [Yy]*|"" )
 			message "configuring zsh"
-			#sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"		
+			# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+			curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+			sed -i 's/^[^#]*exec/#&/' install.sh
+			sh install.sh
+			rm -rf install.sh
 			git clone https://github.com/zsh-users/zsh-autosuggestions
 			mv zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/
 			git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 			
 			message "copying zshrc"
-			rm -rf ~/.zshrc
+			sudo rm -rf ~/.zshrc
 			rsync -aP config-files/.zshrc ~/
 
 			message "changing default shell to zsh"
@@ -143,6 +147,6 @@ while true; do
     esac
 done
 
-updatedb
+sudo updatedb
 
 message "Everything executed without any error :)"
