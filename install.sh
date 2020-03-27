@@ -13,6 +13,9 @@ conf_message()
 	printf "(@SED) Do you wish to $1? (Y/n)"
 }
 
+#Enable AUR 
+sudo sed --in-place "s/#EnableAUR/EnableAUR/" "/etc/pamac.conf"
+
 while true; do
 	conf_message "update default timeout and define custom keyboard shortcut" 
     read -p "" yn
@@ -51,7 +54,8 @@ while true; do
     case $yn in
         [Yy]*|"" )
 			message "installing necessary tools"
-			yay -S zsh tlp neofetch google-chrome brave vlc intellij code qbittorrent xdman handbrake fish sublime-text gimp libreoffice-still mlocate timeshift
+			#yay -S intellij #This seems to be depricated
+			yay -S base-devel zsh tlp neofetch google-chrome brave vlc code qbittorrent xdman handbrake sublime-text gimp libreoffice-still mlocate timeshift
 	       	
 	       	message "configuring the tools"
 			alias ll="ls -la"
@@ -78,7 +82,7 @@ while true; do
 				message "sublime-text's existing config deleted"
 			fi
 			message "copying new config files"
-			cp -r config-files/sublime-text-3/ ~/.config
+			rsync -aP config-files/sublime-text-3/ ~/.config
 	       	break;;
         [Nn]* ) break;;
         * ) echo "Please answer Y/y or N/n as yes or no.";;
@@ -101,12 +105,14 @@ while true; do
 done
 
 while true; do
-	conf_message "configure Themes_and_Icons" 
+	conf_message "configure themes and fonts" 
     read -p "" yn
     case $yn in
         [Yy]*|"" )
 			message "copying themes & icons files"
-			cp -r config-files/Themes_and_Icons ~/
+			rsync -aP config-files/Themes_and_Icons/ ~/
+			message "copying fonts"
+			sudo rsync -aP config-files/fonts/ /usr/share/fonts/TTF/
 	       	break;;
         [Nn]* ) break;;
         * ) echo "Please answer Y/y or N/n as yes or no.";;
@@ -126,7 +132,7 @@ while true; do
 			
 			message "copying zshrc"
 			rm -rf ~/.zshrc
-			cp config-files/.zshrc ~/
+			rsync -aP config-files/.zshrc ~/
 
 			message "changing default shell to zsh"
 			chsh -s /bin/zsh
@@ -137,5 +143,6 @@ while true; do
     esac
 done
 
+updatedb
 
 message "Everything executed without any error :)"
