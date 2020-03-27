@@ -57,7 +57,12 @@ while true; do
 			#yay -S intellij #This seems to be depricated
 			yay -S base-devel zsh vim tlp neofetch google-chrome brave vlc code qbittorrent xdman handbrake sublime-text gimp libreoffice-still mlocate timeshift
 	       	
+	       	message "installing pip and some of it's tool"
+	       	yay -S python-pip
+	       	pip install virtualenv django
+
 	       	message "configuring the tools"
+	       	shopt -s expand_aliases
 			alias ll="ls -la"
 
 			#For laptop
@@ -128,7 +133,7 @@ while true; do
 			# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 			curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 			sed -i 's/^[^#]*exec/#&/' install.sh
-			sh install.sh
+			sudo sh install.sh
 			rm -rf install.sh
 			git clone https://github.com/zsh-users/zsh-autosuggestions
 			mv zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/
