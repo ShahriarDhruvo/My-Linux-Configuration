@@ -1,0 +1,1 @@
+settings > power > Automatic Suspend > Turn it off

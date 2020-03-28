@@ -1,6 +1,7 @@
 base-devel
 zsh
 vim
+lf
 neofetch
 google-chrome
 brave

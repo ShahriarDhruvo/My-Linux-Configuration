@@ -13,7 +13,8 @@ conf_message()
 	printf "(@SED) Do you wish to $1? (Y/n)"
 }
 
-message "1. first run: sh startupPack.sh
+message "
+1. first run: sh startupPack.sh
 2. then reboot
 3. after that run: sh myScript.sh"
 
@@ -53,7 +54,7 @@ while true; do
 				message "sublime-text's existing config deleted"
 			fi
 			message "copying new config files"
-			rsync -aP config-files/sublime-text-3/ ~/.config
+			rsync -aP config-files/sublime-text-3 ~/.config
 	       	break;;
         [Nn]* ) break;;
         * ) echo "Please answer Y/y or N/n as yes or no.";;
@@ -135,3 +136,27 @@ done
 sudo updatedb
 
 message "Everything executed without any error :)"
+
+while true; do
+	conf_message "change theme for gnome-terminal (ONE-DARK: 122)" 
+    read -p "" yn
+    case $yn in
+        [Yy]*|"" )
+			bash -c "$(wget -qO- https://git.io/vQgMr)"
+	       	break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer Y/y or N/n as yes or no.";;
+    esac
+done
+
+while true; do
+	conf_message "reboot the system now" 
+    read -p "" yn
+    case $yn in
+        [Yy]*|"" )
+			sudo reboot
+	       	break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer Y/y or N/n as yes or no.";;
+    esac
+done
