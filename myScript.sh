@@ -13,60 +13,26 @@ conf_message()
 	printf "(@SED) Do you wish to $1? (Y/n)"
 }
 
-#Enable AUR 
-sudo sed --in-place "s/#EnableAUR/EnableAUR/" "/etc/pamac.conf"
+message "1. first run: sh startupPack.sh
+2. then reboot
+3. after that run: sh myScript.sh"
 
 while true; do
-	conf_message "update default timeout and define custom keyboard shortcut" 
-    read -p "" yn
-    case $yn in
-        [Yy]*|"" )
-			message "updating default timeout to 30 minutes"
-			sudo echo "Defaults passwd_timeout=30" >> /etc/sudoers
-
-			message "defining custom keyboard shortcut"
-			python custom_keyboard_shortcut.py 'open Terminal' 'gnome-terminal' '<Control><Alt>T'
-			python custom_keyboard_shortcut.py 'open File manager' 'nautilus' '<Super>E'
-			python custom_keyboard_shortcut.py 'open Sublime-text' 'subl' '<Control><Alt>S'
-	       	break;;
-        [Nn]* ) break;;
-        * ) echo "Please answer Y/y or N/n as yes or no.";;
-    esac
-done
-
-while true; do
-	conf_message "update the system" 
-    read -p "" yn
-    case $yn in
-        [Yy]*|"" )
-			message "upgrading the system"
-			sudo pacman -Syyu
-			sudo pacman -S yay
-	       	break;;
-        [Nn]* ) break;;
-        * ) echo "Please answer Y/y or N/n as yes or no.";;
-    esac
-done
-
-while true; do
-	conf_message "install & configure the necessary tools" 
+	conf_message "install necessary tools" 
     read -p "" yn
     case $yn in
         [Yy]*|"" )
 			message "installing necessary tools"
-			#yay -S intellij #This seems to be depricated
-			yay -S base-devel zsh vim tlp neofetch google-chrome brave vlc code qbittorrent xdman handbrake sublime-text gimp libreoffice-still mlocate timeshift
-	       	
+			# yay -S intellij #This seems to be depricated
+			# yay -S base-devel zsh vim neofetch google-chrome brave vlc code qbittorrent xdman handbrake sublime-text gimp libreoffice-still mlocate timeshift
+	       	yay -S - < softwares_and_tools.txt
+
 	       	message "installing pip and some of it's tool"
-	       	yay -S python-pip
 	       	pip install virtualenv django
 
-	       	message "configuring the tools"
-	       	shopt -s expand_aliases
-			alias ll="ls -la"
-
-			#For laptop
-			sudo tlp start
+	  		# message "configuring the tools"
+	  		# shopt -s expand_aliases
+			# alias ll="ls -la"
 	       	break;;
         [Nn]* ) break;;
         * ) echo "Please answer Y/y or N/n as yes or no.";;
@@ -146,6 +112,20 @@ while true; do
 			message "changing default shell to zsh"
 			chsh -s /bin/zsh
 			sudo chsh -s /bin/zsh
+	       	break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer Y/y or N/n as yes or no.";;
+    esac
+done
+
+#Enable this only for laptop
+while true; do
+	conf_message "add laptop configuration" 
+    read -p "" yn
+    case $yn in
+        [Yy]*|"" )
+			yay -S tlp
+			sudo tlp start
 	       	break;;
         [Nn]* ) break;;
         * ) echo "Please answer Y/y or N/n as yes or no.";;

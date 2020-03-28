@@ -1,0 +1,17 @@
+base-devel
+zsh
+vim
+neofetch
+google-chrome
+brave
+vlc
+code
+qbittorrent
+xdman
+handbrake
+sublime-text
+gimp
+libreoffice-still
+mlocate
+timeshift
+python-pip
