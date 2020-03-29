@@ -7,16 +7,24 @@ message()
 	echo
 }
 
+m_message()
+{
+	echo
+	echo "(@SED) $1"
+	echo
+}
+
 conf_message()
 {
 	echo
 	printf "(@SED) Do you wish to $1? (Y/n)"
 }
 
-message "
-1. first run: sh startupPack.sh
-2. then reboot
-3. after that run: sh myScript.sh"
+m_message "
+1. First run: sh startupPack.sh
+2. Then reboot
+3. After that run: sh myScript.sh
+4. For some cleanup run: sh cleanup.sh"
 
 while true; do
 	conf_message "install necessary tools" 

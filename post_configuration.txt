@@ -1,1 +1,10 @@
-settings > power > Automatic Suspend > Turn it off
+1.settings > power > Automatic Suspend > Turn it off
+
+2.gnome-terminal color scheme:
+
+	122.One dark->
+		changed one:
+			Default color > text > #B6C8EA
+			palette color 4 > #336A98
+
+			check the "show bold text with bright color"
