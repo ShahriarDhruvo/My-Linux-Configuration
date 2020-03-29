@@ -24,7 +24,9 @@ m_message "
 1. First run: sh startupPack.sh
 2. Then reboot
 3. After that run: sh myScript.sh
-4. For some cleanup run: sh cleanup.sh"
+4. Reboot again
+5. For some cleanup run: sh cleanup.sh
+And........then you are done....... :)"
 
 message "this cleanup script is specifically made for manjaro gnome minimalistic edition"
 
