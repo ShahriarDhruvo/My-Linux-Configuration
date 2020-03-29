@@ -3,7 +3,7 @@ This script is written for <h4> ARCH/ARCH BASED DISTRO....  <br>
 TESTED IN MANJARO GNOME MINIMALISTIC EDITION </h4>  <br>
 
 # My-Linux-Configuration
-This script is written for automatically configure:  <br>
+This script is written for automatically configure:  <br><br>
 1.Themes, icons and fonts  <br>
 2.My sublime-text configuration  <br>
 3.Installing softwares/tools (List is in the softwares_and_tools.txt)  <br>
