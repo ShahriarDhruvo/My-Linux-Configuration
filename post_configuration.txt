@@ -1,6 +1,9 @@
-1.settings > power > Automatic Suspend > Turn it off
+1.Check settings throughly
+	settings > power > Automatic Suspend > Turn it off
 
-2.gnome-terminal color scheme:
+2.Check gnome-tweak throughly
+
+3.gnome-terminal color scheme:
 
 	122.One dark->
 		changed one:

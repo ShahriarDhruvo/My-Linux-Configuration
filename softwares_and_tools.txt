@@ -16,3 +16,4 @@ libreoffice-still
 mlocate
 timeshift
 python-pip
+ibus-avro-git

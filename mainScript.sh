@@ -21,11 +21,12 @@ conf_message()
 }
 
 m_message "
-1. First run: sh startupPack.sh
+1. First run: sh startupScript.sh
 2. Then reboot
-3. After that run: sh myScript.sh
-4. Reboot again
-5. For some cleanup run: sh cleanup.sh
+3. After that run: sh mainScript.sh
+4. Reboot again (Please manually do this as this one will not prompt you to do so like other scripts do in this list...)
+5. And lastly run: sh postScript.sh
+6. Then reboot again
 And........then you are done....... :)"
 
 while true; do
@@ -33,6 +34,9 @@ while true; do
     read -p "" yn
     case $yn in
         [Yy]*|"" )
+			message "running update again for safety measures :)"
+			yay -Syyu
+
 			message "installing necessary tools"
 			# yay -S intellij #This seems to be depricated
 			# yay -S base-devel zsh vim neofetch google-chrome brave vlc code qbittorrent xdman handbrake sublime-text gimp libreoffice-still mlocate timeshift
@@ -101,34 +105,6 @@ while true; do
     esac
 done
 
-while true; do
-	conf_message "Change default shell and set custom configuration for it" 
-    read -p "" yn
-    case $yn in
-        [Yy]*|"" )
-			message "configuring zsh"
-			# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-			curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
-			sed -i 's/^[^#]*exec/#&/' install.sh
-			sudo sh install.sh
-			rm -rf install.sh
-			git clone https://github.com/zsh-users/zsh-autosuggestions
-			mv zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/
-			git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-			
-			message "copying zshrc"
-			sudo rm -rf ~/.zshrc
-			rsync -aP config-files/.zshrc ~/
-
-			message "changing default shell to zsh"
-			chsh -s /bin/zsh
-			sudo chsh -s /bin/zsh
-	       	break;;
-        [Nn]* ) break;;
-        * ) echo "Please answer Y/y or N/n as yes or no.";;
-    esac
-done
-
 #Enable this only for laptop
 while true; do
 	conf_message "add laptop configuration" 
@@ -143,10 +119,6 @@ while true; do
     esac
 done
 
-sudo updatedb
-
-message "Everything executed without any error :)"
-
 while true; do
 	conf_message "change theme for gnome-terminal (ONE-DARK: 122)" 
     read -p "" yn
@@ -160,13 +132,31 @@ while true; do
 done
 
 while true; do
-	conf_message "reboot the system now" 
+	conf_message "intall oh-my-zsh" 
     read -p "" yn
     case $yn in
         [Yy]*|"" )
-			sudo reboot
+			message "installing oh-my-zsh"
+			sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+			# curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+			# sed -i 's/^[^#]*exec/#&/' install.sh
+			# sudo sh install.sh
+			# rm -rf install.sh
 	       	break;;
         [Nn]* ) break;;
         * ) echo "Please answer Y/y or N/n as yes or no.";;
     esac
 done
+
+# This section will not run as the shell has been changed by previous commands!
+# while true; do
+# 	conf_message "reboot the system now" 
+#     read -p "" yn
+#     case $yn in
+#         [Yy]*|"" )
+# 			sudo reboot
+# 	       	break;;
+#         [Nn]* ) break;;
+#         * ) echo "Please answer Y/y or N/n as yes or no.";;
+#     esac
+# done

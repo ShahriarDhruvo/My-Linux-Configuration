@@ -21,14 +21,15 @@ conf_message()
 }
 
 m_message "
-1. First run: sh startupPack.sh
+1. First run: sh startupScript.sh
 2. Then reboot
-3. After that run: sh myScript.sh
-4. Reboot again
-5. For some cleanup run: sh cleanup.sh
+3. After that run: sh mainScript.sh
+4. Reboot again (Please manually do this as this one will not prompt you to do so like other scripts do in this list...)
+5. And lastly run: sh postScript.sh
+6. Then reboot again
 And........then you are done....... :)"
 
-#Enable AUR 
+# Enable AUR 
 sudo sed --in-place "s/#EnableAUR/EnableAUR/" "/etc/pamac.conf"
 
 # while true; do
@@ -43,6 +44,21 @@ sudo sed --in-place "s/#EnableAUR/EnableAUR/" "/etc/pamac.conf"
 #         * ) echo "Please answer Y/y or N/n as yes or no.";;
 #     esac
 # done
+
+# GRUB settings
+while true; do
+	conf_message "change grub default timeout to 1s" 
+    read -p "" yn
+    case $yn in
+        [Yy]*|"" )
+			message "updating grub timeout"
+			sudo sed -i 's/GRUB_TIMEOUT=10/GRUB_TIMEOUT=1/g' /etc/default/grub
+			sudo update-grub
+	       	break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer Y/y or N/n as yes or no.";;
+    esac
+done
 
 while true; do
 	conf_message "define custom keyboard shortcut" 

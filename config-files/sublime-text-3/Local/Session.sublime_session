@@ -1135,35 +1135,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "#include<bits/stdc++.h>\n#define FastIO ios_base::sync_with_stdio(false)\n\nusing namespace std;\n\nint main()\n{\n\tFastIO;\n\t\n\t\n\treturn 0;\n}",
-					"file": "/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1307A. Cow and Haybales.cpp",
-					"file_size": 0,
-					"file_write_time": 132265262220000000,
-					"settings":
-					{
-						"buffer_size": 133,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/shahriardhruvo/Documents/my_code/input.txt",
-					"settings":
-					{
-						"buffer_size": 144,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/shahriardhruvo/Documents/my_code/output.txt",
-					"settings":
-					{
-						"buffer_size": 96,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "Packages/User/my_cpp.sublime-build",
 			"build_system_choices":
@@ -1384,6 +1355,9 @@
 			],
 			"file_history":
 			[
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1307A. Cow and Haybales.cpp",
+				"/home/shahriardhruvo/Documents/my_code/input.txt",
+				"/home/shahriardhruvo/Documents/my_code/output.txt",
 				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1284A. New Year and Naming.cpp",
 				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1296D. Fight with Monsters.cpp",
 				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1303A. Erasing Zeroes.cpp",
@@ -1508,10 +1482,7 @@
 				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Galaxy.h",
 				"/home/steinum/gameproject2/main.cpp",
 				"/home/steinum/gameproject2/Dead__001.png",
-				"/home/steinum/gameproject2/fade.ogg",
-				"/home/steinum/gameproject2/character.hpp",
-				"/home/steinum/Project_work_2/game/main.cpp",
-				"/home/steinum/Millantis_Game/millantis.cpp"
+				"/home/steinum/gameproject2/fade.ogg"
 			],
 			"find":
 			{
@@ -1683,105 +1654,18 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1307A. Cow and Haybales.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 133,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										118,
-										118
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				},
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 1,
-							"file": "/home/shahriardhruvo/Documents/my_code/input.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 144,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										144,
-										144
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						}
 					]
 				},
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 2,
-							"file": "/home/shahriardhruvo/Documents/my_code/output.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 96,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -1843,7 +1727,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,960,28,1920,1054,1920,1080",
+			"position": "0,1,0,0,0,0,0,0,0,1920,1080",
 			"project": "",
 			"replace":
 			{
