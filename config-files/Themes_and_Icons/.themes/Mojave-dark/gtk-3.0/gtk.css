@@ -1296,7 +1296,7 @@ modelbutton.flat arrow.right {
   color: #d6defc;
 }
 
-infobar.info :link, infobar.question :link, infobar.warning :link, infobar.error :link, *:link:selected, button:selected:link, button:selected:visited, .selection-mode headerbar .subtitle:link, headerbar.selection-mode .subtitle:link, .selection-mode .titlebar:not(headerbar) .subtitle:link,
+infobar.info *:link, infobar.info button:link, infobar.info button:visited, infobar.question *:link, infobar.question button:link, infobar.question button:visited, infobar.warning *:link, infobar.warning button:link, infobar.warning button:visited, infobar.error *:link, infobar.error button:link, infobar.error button:visited, *:link:selected, button:selected:link, button:selected:visited, .selection-mode headerbar .subtitle:link, headerbar.selection-mode .subtitle:link, .selection-mode .titlebar:not(headerbar) .subtitle:link,
 .selection-mode.titlebar:not(headerbar) .subtitle:link,
 *:selected *:link,
 *:selected button:link,
@@ -2706,7 +2706,7 @@ menu,
 menu, .csd
 .menu {
   background-color: rgba(51, 51, 51, 0.95);
-  border: 1px solid rgba(77, 77, 77, 0.95);
+  border: 1px solid rgba(66, 66, 66, 0.95);
 }
 
 .context-menu separator,
@@ -2877,7 +2877,7 @@ popover.background {
 popover.background,
 popover.background {
   border-radius: 6px;
-  border: 1px solid rgba(77, 77, 77, 0.98);
+  border: 1px solid rgba(66, 66, 66, 0.98);
 }
 
 popover separator,
@@ -4426,7 +4426,7 @@ row.activatable:selected:active, .nemo-window .sidebar .view:selected:active, .n
   color: #ffffff;
 }
 
-row.activatable:selected.has-open-popup, .nemo-window .sidebar :selected.has-open-popup.view, .nemo-window .sidebar row:selected.has-open-popup, .budgie-menu button:selected.has-open-popup, row.activatable:selected:hover, .nemo-window .sidebar .view:selected:hover, .nemo-window .sidebar row:selected:hover, .budgie-menu button:selected:hover {
+row.activatable:selected.has-open-popup, .nemo-window .sidebar .view:selected.has-open-popup, .nemo-window .sidebar row:selected.has-open-popup, .budgie-menu button:selected.has-open-popup, row.activatable:selected:hover, .nemo-window .sidebar .view:selected:hover, .nemo-window .sidebar row:selected:hover, .budgie-menu button:selected:hover {
   background-color: #2c52d7;
 }
 
@@ -4434,11 +4434,10 @@ row.activatable:selected.has-open-popup, .nemo-window .sidebar :selected.has-ope
   padding: 16px;
   margin: 0 8px 8px 8px;
   color: #dedede;
-  background-color: #333333;
-  background-image: linear-gradient(0deg, #333333 0%, #333333 85%, #262626 95%, #0d0d0d 100%);
-  border-radius: 0;
+  background-color: rgba(51, 51, 51, 0.95);
+  border-radius: 0 0 2px 2px;
   border: none;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.65);
 }
 
 .app-notification border {
@@ -5490,19 +5489,19 @@ terminal-window.background.csd.maximized {
   border-radius: 0 0 0 0;
 }
 
-window.background > box.vertical > box.horizontal > frame > border {
+window.background.csd > box.vertical > box.horizontal > frame > border {
   border-width: 0 1px 0 0;
 }
 
-window.background > box.vertical > box.horizontal > frame > scrolledwindow > viewport.frame list {
+window.background.csd > box.vertical > box.horizontal > frame > scrolledwindow > viewport.frame list {
   border-bottom-left-radius: 6px;
 }
 
-window.background > box.vertical > box.horizontal > stack > widget > notebook.frame {
+window.background.csd > box.vertical > box.horizontal > stack > widget > notebook.frame {
   border-width: 0;
 }
 
-window.background > box.vertical > box.horizontal > stack > widget > notebook.frame > stack {
+window.background.csd > box.vertical > box.horizontal > stack > widget > notebook.frame > stack {
   border-bottom-right-radius: 6px;
 }
 
