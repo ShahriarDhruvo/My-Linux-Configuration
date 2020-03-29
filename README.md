@@ -1,6 +1,6 @@
 # Result
-This script is written for <h6> ARCH/ARCH BASED DISTRO....  <br>
-TESTED IN MANJARO GNOME MINIMALISTIC EDITION </h6>  <br>
+This script is written for <h5> ARCH/ARCH BASED DISTRO....  <br>
+TESTED IN MANJARO GNOME MINIMALISTIC EDITION </h5>  <br>
 
 # My-Linux-Configuration
 This script is written for automatically configure:  <br>
