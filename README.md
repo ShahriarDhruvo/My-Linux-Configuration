@@ -7,4 +7,4 @@ As there are certain config which require reboot to work properly there is no on
 1. First run: sh startupPack.sh
 2. Then reboot
 3. After that run: sh myScript.sh
-4. For some cleanup run: sh cleanup.sh
+............And you are done :)
