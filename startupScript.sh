@@ -32,6 +32,12 @@ And........then you are done....... :)"
 # Enable AUR 
 sudo sed --in-place "s/#EnableAUR/EnableAUR/" "/etc/pamac.conf"
 
+# Git configuration
+message "setting global email and username for github"
+
+git config --global user.email "shahriarelahi3062@gmail.com"
+git config --global user.name "ShahriarDhruvo"
+
 # while true; do
 # 	conf_message "update default timeout" 
 #     read -p "" yn
@@ -69,6 +75,7 @@ while true; do
 			python add_custom_keyboard_shortcut.py 'open Terminal' 'gnome-terminal' '<Control><Alt>T'
 			python add_custom_keyboard_shortcut.py 'open File manager' 'nautilus' '<Super>E'
 			python add_custom_keyboard_shortcut.py 'open Sublime-text' 'subl' '<Control><Alt>S'
+			python add_custom_keyboard_shortcut.py 'open System monitor' 'gnome-system-monitor' '<Control><Shift>S'
 	       	break;;
         [Nn]* ) break;;
         * ) echo "Please answer Y/y or N/n as yes or no.";;

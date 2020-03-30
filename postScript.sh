@@ -60,8 +60,8 @@ while true; do
     case $yn in
         [Yy]*|"" )
 			# Cleanup orphan packages
+			yay -Rns manjaro-hello
 			yay -Rns $(yay -Qtdq)
-			yay -Rcns manjaro-hello cheese
 	       	break;;
         [Nn]* ) break;;
         * ) echo "Please answer Y/y or N/n as yes or no.";;
