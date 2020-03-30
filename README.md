@@ -1,6 +1,6 @@
 # Result
-This script is written for <h4> ARCH/ARCH BASED DISTRO....  <br>
-TESTED IN MANJARO GNOME MINIMALISTIC EDITION </h4>  <br>
+This script is written for <h4> Arch/Arch based distribution  <br>
+Tested in Manjaro Gnome minimalistic edition </h4>  <br>
 
 # My-Linux-Configuration
 This script is written for automatically configure:  <br><br>
@@ -16,9 +16,10 @@ This script is written for automatically configure:  <br><br>
 # Installation
 As there are certain config which require reboot to work properly there is no one script that can do all the work so here we are....  <br>
 
-1.First run: sh startupPack.sh  <br>
-2.Then reboot  <br>
-3.After that run: sh myScript.sh  <br>
-4.Reboot again  <br>
-5.For some cleanup run: sh cleanup.sh  <br>
+1. First run: sh startupScript.sh  <br>
+2. Then reboot  <br>
+3. After that run: sh mainScript.sh  <br>
+4. Reboot again (Please manually do this as this one will not prompt you to do so like other scripts do in this list...)  <br>
+5. And lastly run: sh postScript.sh  <br>
+6. Then reboot again  <br>
 And........then you are done....... :)  <br>
