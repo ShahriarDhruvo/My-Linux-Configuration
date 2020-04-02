@@ -96,6 +96,20 @@ while true; do
     esac
 done
 
+#Enable this only for laptop
+while true; do
+	conf_message "add laptop configuration" 
+    read -p "" yn
+    case $yn in
+        [Yy]*|"" )
+			yay -S tlp
+			sudo tlp start
+	       	break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer Y/y or N/n as yes or no.";;
+    esac
+done
+
 while true; do
 	conf_message "reboot the system now" 
     read -p "" yn

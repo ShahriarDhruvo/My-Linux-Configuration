@@ -15,9 +15,10 @@
 4.Gnome Extensions:(You have to install this only for manjaro, for others you have to install more of this extensions)
 	
 		11.Drop-down terminal X (I don't use it anymore......)
-		12.System-monitor
-		13.Internet speed meter
+		12.System-monitor (now using: Vitals by corecoding {DAMN WHY DIDN'T I SEE IT BEFORE!!!})
+		13.Internet speed meter (Replaced by vitals)
 		14.Clipboard indicator
 		15.Sound Input & Output Device Chooser
 		16.Refresh Wifi Connections
 		17.Disconnect Wifi
+		18.Bluetooth quick connect by bjarosze

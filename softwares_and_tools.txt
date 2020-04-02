@@ -17,3 +17,5 @@ mlocate
 timeshift
 python-pip
 ibus-avro-git
+lollypop
+youtube-dl
