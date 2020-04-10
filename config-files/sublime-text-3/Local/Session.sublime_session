@@ -8,7 +8,7 @@
 		"/home/steinum/Guardian-of-the-Galaxy/Galaxy"
 	],
 	"last_version": 3211,
-	"last_window_id": 16,
+	"last_window_id": 17,
 	"log_indexing": false,
 	"settings":
 	{
@@ -19,6 +19,18 @@
 			{
 				"selected_items":
 				[
+					[
+						"p",
+						"pvec"
+					],
+					[
+						"op",
+						"opvec"
+					],
+					[
+						"fa",
+						"factorial"
+					],
 					[
 						"tem",
 						"temp1"
@@ -246,10 +258,6 @@
 					[
 						"pat",
 						"pathor"
-					],
-					[
-						"op",
-						"op_cnt"
 					],
 					[
 						"loa",
@@ -487,6 +495,51 @@
 			},
 			"file_history":
 			[
+				"/home/chk.py",
+				"/home/thephilosopher/checkPython.py",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/727A. Transformation: from A to B.cpp",
+				"/home/727A. Transformation: from A to B.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/632 Div 2/c.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/632 Div 2/b.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests/c.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests/b.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests/a.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/1093C. Mishka and the Last Exam.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests/test.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests/4.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/485A. Factory.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/1144D. Equalize Them All.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/4.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/145A. Lucky Conversion.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/test.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/5.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/1.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/2.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/3.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/HOTELS - Hotels Along the Croatian Coast.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/test.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/10684 - The jackpot.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/kadanes-algorithm.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/1131C. Birthday.cpp",
+				"/home/thephilosopher/Documents/Notes/posgres_in_arch.txt",
+				"/home/thephilosopher/Documents/Django-projects/Project001/templates/index.html",
+				"/home/thephilosopher/Documents/Django-projects/Notes.txt",
+				"/home/thephilosopher/Documents/test.txt",
+				"/home/thephilosopher/Documents/My-Linux-Configuration/startupScript.sh",
+				"/home/thephilosopher/Documents/My-Linux-Configuration/mainScript.sh",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1307A. Cow and Haybales.cpp",
+				"/home/shahriardhruvo/Documents/my_code/input.txt",
+				"/home/shahriardhruvo/Documents/my_code/output.txt",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1284A. New Year and Naming.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1296D. Fight with Monsters.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1303A. Erasing Zeroes.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/630A. Again Twenty Five!.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/804A.Find Amir.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/805A.Fake NP.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1301Three Strings.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1301Three Strings.py",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1132Regular Bracket Sequence.cpp",
+				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1132Regular Bracket Sequence.py",
 				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/26A.Almost_Prime.cpp",
 				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/25A. IQ Test.cpp",
 				"/home/shahriardhruvo/untitled.txt",
@@ -569,56 +622,11 @@
 				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Pickup.cpp",
 				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Player.cpp",
 				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Stage.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TextTag.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Tile.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/WButton.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Game.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Player.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/WButton.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Upgrade.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Upgrade.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TileArr.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Tile.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TextTag.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Stage.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Powerup.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Powerup.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Pickup.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Particle.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Map.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Map.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/MainMenu.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/MainMenu.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Boss.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Boss.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Bullet.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Bullet.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/dArr.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Enemy.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/EnemySpawner.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/EnemySpawner.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Galaxy.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Galaxy.h",
-				"/home/steinum/gameproject2/main.cpp",
-				"/home/steinum/gameproject2/Dead__001.png",
-				"/home/steinum/gameproject2/fade.ogg",
-				"/home/steinum/gameproject2/character.hpp",
-				"/home/steinum/Project_work_2/game/main.cpp",
-				"/home/steinum/Millantis_Game/millantis.cpp",
-				"/home/steinum/Documents/my_code/test2.cpp",
-				"/home/steinum/Fun-Game/main.cpp",
-				"/home/steinum/FourWheelerRacing/main/java.cpp",
-				"/home/steinum/project-2-Game/Sfml project/Bala3.cpp",
-				"/home/steinum/FourWheelerRacing/main/life.cpp",
-				"/home/steinum/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle",
-				"/home/steinum/Documents/my_code/test.cpp",
-				"/home/steinum/project-2-Game/Sfml project/BALA2.cpp",
-				"/home/steinum/swe-project-2/main.cpp",
-				"/home/steinum/project-2-Game/Sfml project/main.cpp"
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TextTag.cpp"
 			],
 			"find":
 			{
-				"height": 31.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -633,6 +641,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"long long",
+					"s",
+					"m",
 					"a",
 					"f",
 					"a",
@@ -757,10 +768,7 @@
 					"217.5",
 					".0",
 					"501",
-					"501.0",
-					"511.5",
-					"500",
-					"rotate(90);"
+					"501.0"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -779,7 +787,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 31.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -801,7 +809,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 58.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -879,6 +887,18 @@
 			{
 				"selected_items":
 				[
+					[
+						"p",
+						"pvec"
+					],
+					[
+						"op",
+						"opvec"
+					],
+					[
+						"fa",
+						"factorial"
+					],
 					[
 						"tem",
 						"temp1"
@@ -1108,10 +1128,6 @@
 						"pathor"
 					],
 					[
-						"op",
-						"op_cnt"
-					],
-					[
 						"loa",
 						"load_pathor"
 					],
@@ -1135,6 +1151,24 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/thephilosopher/Documents/my_code/input.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/thephilosopher/Documents/my_code/output.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "Packages/User/my_cpp.sublime-build",
 			"build_system_choices":
@@ -1355,6 +1389,43 @@
 			],
 			"file_history":
 			[
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Educational Codeforces Round 85/a.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Educational Codeforces Round 85/b.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Educational Codeforces Round 85/c.cpp",
+				"/home/thephilosopher/.config/sublime-text-3/Packages/User/header.sublime-snippet",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/727A. Transformation: from A to B.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/chk.py",
+				"/home/chk.py",
+				"/home/thephilosopher/checkPython.py",
+				"/home/727A. Transformation: from A to B.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/632 Div 2/c.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/632 Div 2/b.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests/c.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests/b.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests/a.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/1093C. Mishka and the Last Exam.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests/test.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests/4.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/485A. Factory.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/1144D. Equalize Them All.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/4.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/145A. Lucky Conversion.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/test.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/5.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/1.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/2.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/Vjudge Noobies Contests 1/3.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/HOTELS - Hotels Along the Croatian Coast.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/test.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/10684 - The jackpot.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/kadanes-algorithm.cpp",
+				"/mnt/16E8DB8EE8DB6A8F/Online Problem Solution/1131C. Birthday.cpp",
+				"/home/thephilosopher/Documents/Notes/posgres_in_arch.txt",
+				"/home/thephilosopher/Documents/Django-projects/Project001/templates/index.html",
+				"/home/thephilosopher/Documents/Django-projects/Notes.txt",
+				"/home/thephilosopher/Documents/test.txt",
+				"/home/thephilosopher/Documents/My-Linux-Configuration/startupScript.sh",
+				"/home/thephilosopher/Documents/My-Linux-Configuration/mainScript.sh",
 				"/mnt/wwn-0x5000c500afd16d06-part1/My Programs/Online problem solutions/1307A. Cow and Haybales.cpp",
 				"/home/shahriardhruvo/Documents/my_code/input.txt",
 				"/home/shahriardhruvo/Documents/my_code/output.txt",
@@ -1445,44 +1516,7 @@
 				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/GameMapMaker.h",
 				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Enemy.cpp",
 				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Game.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/GameMapMaker.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Particle.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Pickup.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Player.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Stage.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TextTag.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Tile.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/WButton.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Game.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Player.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/WButton.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Upgrade.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Upgrade.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TileArr.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Tile.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/TextTag.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Stage.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Powerup.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Powerup.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Pickup.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Particle.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Map.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Map.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/MainMenu.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/MainMenu.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Boss.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Boss.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Bullet.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Bullet.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/dArr.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Enemy.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/EnemySpawner.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/EnemySpawner.h",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Galaxy.cpp",
-				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Galaxy.h",
-				"/home/steinum/gameproject2/main.cpp",
-				"/home/steinum/gameproject2/Dead__001.png",
-				"/home/steinum/gameproject2/fade.ogg"
+				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/GameMapMaker.cpp"
 			],
 			"find":
 			{
@@ -1501,6 +1535,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"long long",
+					"s",
+					"m",
 					"a",
 					"f",
 					"a",
@@ -1625,10 +1662,7 @@
 					"217.5",
 					".0",
 					"501",
-					"501.0",
-					"511.5",
-					"500",
-					"rotate(90);"
+					"501.0"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1659,13 +1693,71 @@
 					]
 				},
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/thephilosopher/Documents/my_code/input.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
 					]
 				},
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 1,
+							"file": "/home/thephilosopher/Documents/my_code/output.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -1703,7 +1795,7 @@
 				"cols":
 				[
 					0.0,
-					0.748332021458,
+					0.708529152297,
 					1.0
 				],
 				"rows":

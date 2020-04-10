@@ -9,7 +9,8 @@
 		changed one:
 			Default color > text > #B6C8EA
 			palette color 4 > #153957
-
+			
+			You can try to change the text and background color to: Green on black
 			check the "show bold text with bright color"
 			
 4.Gnome Extensions:(You have to install this only for manjaro, for others you have to install more of this extensions)
