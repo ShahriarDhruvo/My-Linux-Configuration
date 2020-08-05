@@ -1,0 +1,7 @@
+Vs Code: 
+
+	1.Install all the themes and configuration of vs code like sublime
+	2.Install this list of extensions:
+		a.Prettier
+		b.Live server
+		c.See Shifat's config of vs code and add that to your need

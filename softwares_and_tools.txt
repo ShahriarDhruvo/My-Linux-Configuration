@@ -2,8 +2,10 @@ base-devel
 zsh
 vim
 lf
+tree
 neofetch
 google-chrome
+chrome-remote-desktop
 brave
 vlc
 code
@@ -20,3 +22,7 @@ ibus-avro-git
 lollypop
 youtube-dl
 gnome-clocks
+htop
+whois
+plank
+noto-fonts-emoji

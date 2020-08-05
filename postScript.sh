@@ -54,12 +54,26 @@ done
 
 sudo updatedb
 
+# This will add "most" package functionality for manuals
+while true; do
+	conf_message "add 'most' package functionality for manuals" 
+    read -p "" yn
+    case $yn in
+        [Yy]*|"" )
+			yay -S most
+			echo "export PAGER=most" >> ~/.profile
+	       	break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer Y/y or N/n as yes or no.";;
+    esac
+done
+
+# Cleanup orphan packages
 while true; do
 	conf_message "remove unneeded packages" 
     read -p "" yn
     case $yn in
         [Yy]*|"" )
-			# Cleanup orphan packages
 			yay -Rns manjaro-hello
 			yay -Rns $(yay -Qtdq)
 	       	break;;

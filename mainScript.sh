@@ -42,8 +42,8 @@ while true; do
 			# yay -S base-devel zsh vim neofetch google-chrome brave vlc code qbittorrent xdman handbrake sublime-text gimp libreoffice-still mlocate timeshift
 	       	yay -S - < softwares_and_tools.txt
 
-	       	message "installing pip and some of it's tool"
-	       	pip install virtualenv django
+	       	# message "installing pip and some of it's tool"
+	       	# pip install virtualenv django
 
 	  		# message "configuring the tools"
 	  		# shopt -s expand_aliases

@@ -33,7 +33,8 @@ And........then you are done....... :)"
 sudo sed --in-place "s/#EnableAUR/EnableAUR/" "/etc/pamac.conf"
 
 # Git configuration
-message "setting global email and username for github"
+message "setting global email and username for github 
+(Edit this script to change your email and username for github by default it is set up as the developer's credential)"
 
 git config --global user.email "shahriarelahi3062@gmail.com"
 git config --global user.name "ShahriarDhruvo"
