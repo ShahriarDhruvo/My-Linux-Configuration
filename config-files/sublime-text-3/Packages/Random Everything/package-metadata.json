@@ -1,1 +1,0 @@
-{"platforms": ["*"], "version": "2017.10.19.10.49.55", "dependencies": [], "description": "Plugin for sublime text to generate random, ints, floats, strings and words", "url": "https://github.com/kimpettersen/random-sublime-text-plugin", "sublime_text": "*"}

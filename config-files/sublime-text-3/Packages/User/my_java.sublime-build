@@ -1,4 +1,0 @@
-{
-	"shell_cmd": "javac \"$file_name\" && timeout 5s java \"$file_base_name\"<~/Documents/my_code/input.txt>~/Documents/my_code/output.txt",
-	"selector": "source.java"
-}

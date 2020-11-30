@@ -1,4 +1,0 @@
-{
-	"shell_cmd": "g++ -std=c++14 -c \"${file_name}\" -I /opt/sfml/include/ && g++ \"${file_base_name}\".o -o \"${file_base_name}\"  -L /opt/sfml/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lsfml-network && export LD_LIBRARY_PATH=/opt/sfml/lib && ./\"${file_base_name}\" <~/Documents/my_code/input.txt>~/Documents/my_code/output.txt",
-	"selector": "source.c++,source.c"
-}
