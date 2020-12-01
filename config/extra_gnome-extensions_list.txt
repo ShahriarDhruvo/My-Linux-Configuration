@@ -1,0 +1,5 @@
+gnome-shell-extension-vitals-git
+gnome-shell-extension-clipboard-indicator-git
+gnome-shell-extension-sound-output-device-chooser
+gnome-shell-extension-refresh-wifi-git
+gnome-shell-extension-weather-git

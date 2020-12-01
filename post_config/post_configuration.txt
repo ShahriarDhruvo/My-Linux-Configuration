@@ -1,9 +1,6 @@
-1.Check settings throughly
-	like: settings > power > Automatic Suspend > Turn it off
+1.Check gnome-tweaks and gnome-settings throughly and adjust it to your needs
 
-2.Check gnome-tweak throughly
-
-3.gnome-terminal color scheme:
+2.gnome-terminal color scheme:
 
 	122.One dark->
 		changed one:
@@ -13,13 +10,3 @@
 			You can try to change the text and background color to: Green on black
 			check the "show bold text with bright color"
 			
-4.Gnome Extensions:(You have to install this only for manjaro, for others you have to install more of this extensions)
-	
-		11.Drop-down terminal X (I don't use it anymore......)
-		12.System-monitor (now using: Vitals by corecoding {DAMN WHY DIDN'T I SEE IT BEFORE!!!})
-		13.Internet speed meter (Replaced by vitals)
-		14.Clipboard indicator
-		15.Sound Input & Output Device Chooser
-		16.Refresh Wifi Connections
-		17.Disconnect Wifi
-		18.Bluetooth quick connect by bjarosze

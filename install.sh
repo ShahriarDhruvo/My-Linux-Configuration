@@ -48,6 +48,7 @@ How to configure it: (If for some reason you don't like mine)
 2.Replace the sublime-text-3.zip with yours
 3.Replace the .zshrc with yours
 4.And feel free to change any commands of this script as you like
+5.To add/remove extra gnome extensions edit the config/extra_gnome-extensions_list.txt
 
 This script is all about what will I do/change if I want to use manjaro linux as my primary Operating System
 It is recommended to check this script's code before you run it. And of course I am not responsible for any of your damage"
@@ -57,6 +58,27 @@ proceed_next
 # Enable AUR
 message "enabling AUR"
 sudo sed --in-place "s/#EnableAUR/EnableAUR/" "/etc/pamac.conf"
+
+# Change Power Settings
+while true; do
+    m_message "
+    1.Increase Blank Screen idle-time to 10 minutes
+    2.Change power button action to 'suspend'
+    3.Turn off Automatic Suspend"
+	conf_message "change above power settings" 
+    read -p "" yn
+
+    case $yn in
+        [Yy]*|"" )
+			message "turning off automatic suspend"
+            gsettings set org.gnome.desktop.session idle-delay 600
+            gsettings set org.gnome.settings-daemon.plugins.power power-button-action suspend
+			gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type "nothing"
+	       	break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer Y/y or N/n as yes or no.";;
+    esac
+done
 
 # Git configuration
 message "setting global email and username for github 
@@ -163,6 +185,29 @@ while true; do
     esac
 done
 
+# Install extra gnome-extensions
+while true; do
+    cat config/extra_gnome-extensions_list.txt
+	conf_message "install these gnome extensions above"
+    read -p "" yn
+
+    case $yn in
+        [Yy]*|"" )
+			message "installing extra gnome extensions"
+	       	yay -S - < config/extra_gnome-extensions_list.txt
+
+            # Installing NVIDIA GPU Stats Tool
+            git clone https://github.com/ethanwharris/gnome-nvidia-extension.git
+            cd gnome-nvidia-extension
+            make
+            make install
+            rm -rf gnome-nvidia-extension
+	       	break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer Y/y or N/n as yes or no.";;
+    esac
+done
+
 # Configuaring Sublime-text
 while true; do
 	conf_message "configure sublime-text" 
@@ -214,6 +259,13 @@ while true; do
 
     case $yn in
         [Yy]*|"" )
+            # Fonts
+			message "changing default date-time behaviour"
+            timedatectl set-ntp 1 # Automatic update date-time
+            gsettings set org.gnome.desktop.interface clock-format 12h
+            gsettings set org.gnome.desktop.interface clock-show-date true
+            gsettings set org.gnome.desktop.interface clock-show-seconds true
+
             # Fonts
 			message "copying fonts"
             unzip config/fonts.zip
@@ -366,10 +418,13 @@ while true; do
     esac
 done
 
+m_message "
+You need to restart your system next
+After restart check out the 'post_config/post_configuration.txt' for furthur customizations"
+
 # Reboot the system
 while true; do
-    message "you need to restart your pc"
-	conf_message "reboot the system now" 
+	conf_message "restart the system now"
     read -p "" yn
 
     case $yn in

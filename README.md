@@ -1,26 +1,28 @@
 # Result
-This script is written for <h4> Arch/Arch based distribution  <br>
-Tested in Manjaro Gnome minimalistic edition </h4>  <br>
+This script is written for <h5> Arch/Arch based distribution <br>
+Tested in Manjaro GNOME minimalistic edition </h5> <br>
 
 # Installation
 sh install.sh <br>
 give sudo password and select your choices.....
 
 # What does it do
-This script is written for automatically configure:  <br><br>
-1.Themes, icons and fonts  <br>
-2.My sublime-text configuration  <br>
-3.Installing softwares/tools (List is in the config/extra_softwares_list.txt)  <br>
-4.Configuring zsh, oh-my-zsh  <br>
+This script is written for automatically configure: <br>
+<br>
+1.Themes, icons and fonts <br>
+2.My sublime-text configuration <br>
+3.Installing softwares/tools (List is in the config/extra_softwares_list.txt) <br>
+4.Configuring zsh, oh-my-zsh <br>
 5.Update the whole system  <br>
-6.Removing some unneeded softwares (including orphan packages)  <br>
-7.Installation and configuration of virtualization software (virt-manager)  <br>
+6.Removing some unneeded softwares (including orphan packages) <br>
+7.Installation and configuration of virtualization software (virt-manager) <br>
 8.Some laptop configuration <br>
-9.Automatically applying custom applications, icons, cursors themes
+9.Automatically applying custom applications, icons, cursors themes <br>
 10.Power settings customizations and more.... <br>
 <br>
-This script is all about what will I do/change if I want to use manjaro linux as my primary Operating System <br>
-It is recommended to check this script's code before you run it. And of course I am not responsible for any of your damage <br>
+This script is all about what will I do/change if I want to use manjaro linux as my primary Operating System. <br>
+It is recommended to check this script's code and change it according to your needs before you run it. <br>
+And of course I am not responsible for any of your damage. <br>
 
 # How to configure it: (If for some reason you don't like mine)
 1.You can edit the config/extra_software_list.txt to add/remove softwares/tools of your choice <br>

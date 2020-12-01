@@ -25,3 +25,4 @@ htop
 whois
 noto-fonts-emoji
 postman-bin
+stacer
