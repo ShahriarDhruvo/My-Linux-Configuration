@@ -1,0 +1,4 @@
+
+# Custom Alias
+alias l="ls -CF"
+alias ll="ls -alF"

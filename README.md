@@ -28,5 +28,6 @@ And of course I am not responsible for any of your damage. <br>
 1.You can edit the config/extra_software_list.txt to add/remove softwares/tools of your choice <br>
 2.Replace the sublime-text-3.zip with yours <br>
 3.Replace the .zshrc with yours <br>
-4.And feel free to change any commands of this script as you like <br>
-5.To add/remove extra gnome extensions edit the config/extra_gnome-extensions_list.txt
+4.To add/remove extra gnome extensions edit the config/extra_gnome-extensions_list.txt <br>
+5.To add/remove extra aliases edit the config/custom_aliases.txt <br>
+6.And feel free to change any commands of this script as you like <br>
