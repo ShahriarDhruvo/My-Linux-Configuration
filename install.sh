@@ -16,7 +16,7 @@ m_message()
 
 conf_message()
 {
-    proceed_next
+    echo
 	printf "(@SED) Do you want to $1? (Y/n)"
 }
 
@@ -59,6 +59,8 @@ proceed_next
 message "enabling AUR"
 sudo sed --in-place "s/#EnableAUR/EnableAUR/" "/etc/pamac.conf"
 
+proceed_next
+
 # Change Power Settings
 while true; do
     m_message "
@@ -70,7 +72,7 @@ while true; do
 
     case $yn in
         [Yy]*|"" )
-			message "turning off automatic suspend"
+			message "applying these power management settings"
             gsettings set org.gnome.desktop.session idle-delay 600
             gsettings set org.gnome.settings-daemon.plugins.power power-button-action suspend
 			gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type "nothing"
@@ -105,7 +107,11 @@ done
 
 # Set custom keybindings
 while true; do
-	conf_message "define custom keyboard shortcut" 
+    m_message "
+    1.gnome-terminal: ctrl + alt + T
+    2.nautilus (File manager): super (windows key) + E
+    3.subl (sublime-text): ctrl + alt + S"
+	conf_message "add above custom keyboard shortcuts" 
     read -p "" yn
 
     case $yn in
@@ -168,7 +174,9 @@ done
 
 # Install extra softwares
 while true; do
+    clear
     cat config/extra_softwares_list.txt
+    echo
 	conf_message "install these softwares above"
     read -p "" yn
 
@@ -187,7 +195,9 @@ done
 
 # Install extra gnome-extensions
 while true; do
+    clear
     cat config/extra_gnome-extensions_list.txt
+    echo
 	conf_message "install these gnome extensions above"
     read -p "" yn
 
@@ -259,7 +269,7 @@ while true; do
 
     case $yn in
         [Yy]*|"" )
-            # Fonts
+            # Date-time configuration
 			message "changing default date-time behaviour"
             timedatectl set-ntp 1 # Automatic update date-time
             gsettings set org.gnome.desktop.interface clock-format 12h
@@ -269,12 +279,13 @@ while true; do
             # Fonts
 			message "copying fonts"
             unzip config/fonts.zip
-			mv config/fonts/ /usr/share/fonts/TTF/
+			sudo mv fonts/* /usr/share/fonts/TTF/
             rm -r fonts
 
             # Configuaring & Installing necessary tools
             mkdir ~/.themes ~/.icons
-            yay -S mojave-gtk-theme canta-icon-theme-git
+            # yay -S mojave-gtk-theme canta-icon-theme-git
+            yay -S canta-icon-theme-git
 
             # Theme -> Applications: Ant-Dracula 
             git clone -b alt-style --single-branch https://github.com/dracula/gtk.git
@@ -283,7 +294,9 @@ while true; do
             gsettings set org.gnome.desktop.wm.preferences theme "gtk"
 
             # Theme -> Shell: Mojave-dark
-            gsettings set org.gnome.shell.extensions.user-theme name "Mojave-dark"
+            # gsettings set org.gnome.shell.extensions.user-theme name "Mojave-dark"
+            # Theme -> Shell: Matcha-dark-azul
+            gsettings set org.gnome.shell.extensions.user-theme name "Matcha-dark-azul"
 
             # Theme -> Cursor: PearDark
             unzip config/PearDarkCursors.zip -d ~/.icons
@@ -312,7 +325,7 @@ done
 
 # Theming gnome-terminal
 while true; do
-	conf_message "change theme for gnome-terminal (ONE-DARK: 122)" 
+	conf_message "change theme for gnome-terminal (Select ONE-DARK)" 
     read -p "" yn
 
     case $yn in
@@ -324,46 +337,48 @@ while true; do
     esac
 done
 
-Installing oh-my-zsh
-while true; do
-	conf_message "intall oh-my-zsh" 
-    read -p "" yn
+# # Using Manjaro's default zsh configurations
 
-    case $yn in
-        [Yy]*|"" )
-			message "installing oh-my-zsh"
-			# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-            yay -S oh-my-zsh-git
-	       	break;;
-        [Nn]* ) break;;
-        * ) echo "Please answer Y/y or N/n as yes or no.";;
-    esac
-done
+# # Installing oh-my-zsh
+# while true; do
+# 	conf_message "intall oh-my-zsh" 
+#     read -p "" yn
 
-Configuaring ZSH
-while true; do
-	conf_message "set custom configuration for zsh" 
-    read -p "" yn
+#     case $yn in
+#         [Yy]*|"" )
+# 			message "installing oh-my-zsh"
+# 			# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+#             yay -S oh-my-zsh-git
+# 	       	break;;
+#         [Nn]* ) break;;
+#         * ) echo "Please answer Y/y or N/n as yes or no.";;
+#     esac
+# done
 
-    case $yn in
-        [Yy]*|"" )
-			message "configuring zsh"
-			git clone https://github.com/zsh-users/zsh-autosuggestions
-			mv zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/
-			git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+# # Configuaring ZSH
+# while true; do
+# 	conf_message "set custom configuration for zsh" 
+#     read -p "" yn
+
+#     case $yn in
+#         [Yy]*|"" )
+# 			message "configuring zsh"
+# 			git clone https://github.com/zsh-users/zsh-autosuggestions
+# 			mv zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/
+# 			git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 			
-			message "copying zshrc"
-			sudo rm -rf ~/.zshrc
-			rsync -aP config/.zshrc ~/
+# 			message "copying zshrc"
+# 			sudo rm -rf ~/.zshrc
+# 			cp config/.zshrc ~/
 
-			# message "changing default shell to zsh"
-			# chsh -s /bin/zsh
-			# sudo chsh -s /bin/zsh
-	       	break;;
-        [Nn]* ) break;;
-        * ) echo "Please answer Y/y or N/n as yes or no.";;
-    esac
-done
+# 			# message "changing default shell to zsh"
+# 			# chsh -s /bin/zsh
+# 			# sudo chsh -s /bin/zsh
+# 	       	break;;
+#         [Nn]* ) break;;
+#         * ) echo "Please answer Y/y or N/n as yes or no.";;
+#     esac
+# done
 
 # Updating database
 message "updating database"
@@ -402,6 +417,8 @@ done
 message "
 Success.................................
 Everything executed without any error :)"
+
+proceed_next
 
 # Change the Password
 while true; do

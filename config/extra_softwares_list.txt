@@ -1,5 +1,6 @@
 base-devel
 tree
+baobab
 neofetch
 google-chrome
 chrome-remote-desktop

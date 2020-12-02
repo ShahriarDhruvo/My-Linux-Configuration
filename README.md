@@ -1,6 +1,6 @@
 # Result
-This script is written for <h5> Arch/Arch based distribution <br>
-Tested in Manjaro GNOME minimalistic edition </h5> <br>
+<h5> This script is written for Arch/Arch based distribution <br>
+Tested in Manjaro GNOME minimalistic edition </h5>
 
 # Installation
 sh install.sh <br>

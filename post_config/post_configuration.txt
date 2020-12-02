@@ -8,5 +8,6 @@
 			palette color 4 > #153957
 			
 			You can try to change the text and background color to: Green on black
-			check the "show bold text with bright color"
+			
+			(MUST)	check the "show bold text with bright color"
 			
