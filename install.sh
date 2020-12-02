@@ -127,16 +127,17 @@ while true; do
     esac
 done
 
-# Update the system
+# Update the system & install necessary tools
 while true; do
-	conf_message "update the system" 
+	conf_message "update the system & install necessary tools" 
     read -p "" yn
 
     case $yn in
         [Yy]*|"" )
-			message "upgrading the system"
+			message "upgrading the system & install necessary tools"
 			sudo pacman -Syyu
 			sudo pacman -S yay
+            yay -S base-devel
 	       	break;;
         [Nn]* ) break;;
         * ) echo "Please answer Y/y or N/n as yes or no.";;
@@ -212,6 +213,7 @@ while true; do
             cd gnome-nvidia-extension
             make
             make install
+            cd ..
             rm -rf gnome-nvidia-extension
 	       	break;;
         [Nn]* ) break;;
