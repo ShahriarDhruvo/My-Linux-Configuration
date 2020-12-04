@@ -1,6 +1,0 @@
-This is the location of the themes for plank dock ->
-
-~/.local/share/plank/themes
-
-Add this feature to your existing script for getting started with any linux distro and try to get rid of the existing non usuable (Which you don't use currently) 
-which comes with the manjaro minimalistic edition, I am talking about all these useless extensions preinstalled like dash to dock... :)

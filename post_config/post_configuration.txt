@@ -4,10 +4,9 @@
 
 	122.One dark->
 		changed one:
-			Default color > text > #B6C8EA
-			palette color 4 > #153957
-			
-			You can try to change the text and background color to: Green on black
+			Default color > text > #89E6B3
+			palette color 4 > #2176C7
+			palette color 8 > #006488
 			
 			(MUST)	check the "show bold text with bright color"
 			
