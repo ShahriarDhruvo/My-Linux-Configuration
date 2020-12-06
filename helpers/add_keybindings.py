@@ -1,26 +1,27 @@
 #!/usr/bin/env python3
+
 import subprocess
 import sys
 
-# defining keys & strings to be used
 
+# defining keys & strings to be used
 key = "org.gnome.settings-daemon.plugins.media-keys custom-keybindings"
 subkey1 = key.replace(" ", ".")[:-1]+":"
 item_s = "/"+key.replace(" ", "/").replace(".", "/")+"/"
 firstname = "custom"
 
-# get the current list of custom shortcuts
 
+# get the current list of custom shortcuts
 get = lambda cmd: subprocess.check_output(["/bin/bash", "-c", cmd]).decode("utf-8")
 array_str = get("gsettings get "+key)
 
-# in case the array was empty, remove the annotation hints
 
+# in case the array was empty, remove the annotation hints
 command_result = array_str.lstrip("@as")
 current = eval(command_result)
 
-# make sure the additional keybinding mention is no duplicate
 
+# make sure the additional keybinding mention is no duplicate
 n = 1
 while True:
     new = item_s+firstname+str(n)+"/"
@@ -29,12 +30,11 @@ while True:
     else:
         break
 
-# add the new keybinding to the list
 
+# add the new keybinding to the list
 current.append(new)
 
 # create the shortcut, set the name, command and shortcut key
-
 cmd0 = 'gsettings set '+key+' "'+str(current)+'"'
 cmd1 = 'gsettings set '+subkey1+new+" name '"+sys.argv[1]+"'"
 cmd2 = 'gsettings set '+subkey1+new+" command '"+sys.argv[2]+"'"

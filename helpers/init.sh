@@ -82,4 +82,34 @@ proceed_next()
     done
 }
 
+Yn_wait()
+{
+    while true; do
+        read -p "" yn
+
+        case $yn in
+            [Yy]*|"" )
+                echo
+                echo -e ${COMMAND}"Running Commands: \"$*\""${NC}
+                echo
+                eval $*
+
+                # Command status check
+                if [ $? -eq 0 ]; then
+                    echo
+                    echo -e ${SUCCESS}"Successfully done...."${NC}
+                    echo
+                else
+                    echo
+                    echo -e ${ERROR}"There is an error running the command[s]...."${NC}
+                    echo
+                fi
+
+                break;;
+            [Nn]* ) break;;
+            * ) echo "Please answer Y/y or N/n as yes or no.";;
+        esac
+    done
+}
+
 info_message "welcome, maximize your terminal window and focus what does it do :)"

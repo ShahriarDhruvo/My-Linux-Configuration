@@ -1,10 +1,15 @@
 # Configuaring & Installing additional themes and fonts
 while true; do
-	conf_message "configure themes and fonts" 
+    conf_message "configure themes and fonts" 
     read -p "" yn
 
     case $yn in
         [Yy]*|"" )
+            echo
+            echo -e ${COMMAND}"Running Commands: \"$*\""${NC}
+            echo
+            
+            # Commands
             # Date-time configuration
 			step_message "changing default date-time behaviour"
             timedatectl set-ntp 1 # Automatic update date-time
@@ -53,7 +58,19 @@ while true; do
             # Theme -> Cursor: Mcmojave-cursors
             # yay -S mcmojave-cursors
             # gsettings set org.gnome.desktop.interface cursor-theme 'mcmojave-cursors'
-	       	break;;
+
+            # Command status check
+            if [ $? -eq 0 ]; then
+                echo
+                echo -e ${SUCCESS}"Successfully done...."${NC}
+                echo
+            else
+                echo
+                echo -e ${ERROR}"There is an error running the command[s]...."${NC}
+                echo
+            fi
+
+            break;;
         [Nn]* ) break;;
         * ) echo "Please answer Y/y or N/n as yes or no.";;
     esac
