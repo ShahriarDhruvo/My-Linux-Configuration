@@ -1,4 +1,4 @@
-warning_message "before running this script first goto the 'config/personal_Info.json' file, put all of your config data and then run this. By default all of these data's are set to NULL. So if you continue without changing it, it may not configure the settings correctly"
+warning_message "Pay attention while running this script, as this will ask for your root password many times because it need to add/change some system settings which needs root previlages....(ATTENTION FOR THE PASSWORD TIMEOUT)"
 
 proceed_next
 

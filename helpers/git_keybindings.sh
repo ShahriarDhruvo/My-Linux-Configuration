@@ -1,20 +1,3 @@
-# Git configuration
-# while true; do
-# 	conf_message "set up global email and username for github"
-#     warning_message "(Edit the 'personal_Info.json' to change your email and username for github by default it is set up as NULL)"
-#     read -p "" yn
-
-#     case $yn in
-#         [Yy]*|"" )
-# 			git config --global user.email $(jq '.git_email' config/personal_Info.json)
-#             git config --global user.name $(jq '.git_username' config/personal_Info.json)
-
-# 	       	break;;
-#         [Nn]* ) break;;
-#         * ) echo "Please answer Y/y or N/n as yes or no.";;
-#     esac
-# done
-
 # Set custom keybindings
 # while true; do
 #     info_message "
@@ -36,15 +19,57 @@
 #     esac
 # done
 
-# Git configuration
-conf_message "set up global email and username for github"
-warning_message "(Edit the 'personal_Info.json' to change your email and username for github by default it is set up as NULL)"
+while true; do
+    warning_message "You better pay attention for this section....."
+	conf_message "set up global email and username for github"
+    read -p "" yn
 
-commands="
-git config --global user.email $(jq '.git_email' config/personal_Info.json) &&
-git config --global user.name $(jq '.git_username' config/personal_Info.json)"
+    case $yn in
+        [Yy]*|"" )
+            echo
+            echo -e ${COMMAND}"Running Commands: \"$*\""${NC}
+            echo
+            
+            # Commands
+            echo
+            read -p "Enter your Git user email: " email
 
-Yn_wait $commands
+            # Email validity check
+            regex="^[a-z0-9!#\$%&'*+/=?^_\`{|}~-]+(\.[a-z0-9!#$%&'*+/=?^_\`{|}~-]+)*@([a-z0-9]([a-z0-9-]*[a-z0-9])?\.)+[a-z0-9]([a-z0-9-]*[a-z0-9])?\$"
+            until [[ $email =~ $regex ]]
+            do
+                echo
+                echo -e "${ERROR}Email address $email is invalid${NC}"
+                echo
+                read -p "Enter your Git user email: " email
+            done
+            
+            echo
+            echo -e "${SUCCESS}Email address $email is valid${NC}"
+            echo
+
+			git config --global user.email $email
+
+            echo
+            read -p "Enter your Git username: " username
+            git config --global user.name $username
+
+            # Command status check
+            if [ $? -eq 0 ]; then
+                echo
+                echo -e ${SUCCESS}"Successfully done...."${NC}
+                echo
+            else
+                echo
+                echo -e ${ERROR}"There is an error running the command[s]...."${NC}
+                echo
+            fi
+
+            break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer Y/y or N/n as yes or no.";;
+    esac
+done
 
 # Set custom keybindings
 info_message "
