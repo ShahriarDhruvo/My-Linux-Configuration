@@ -7,11 +7,11 @@
 # AUR, Power, GRUB, Keybindings
 . ./helpers/os_settings.sh
 
-# GIT, Keybindings
-. ./helpers/git_keybindings.sh
-
 # Base softwares, NVIDIA GPU Driver, TLP
 . ./helpers/necessary_tools.sh
+
+# GIT, Keybindings
+. ./helpers/git_keybindings.sh
 
 # Extra softwares, gnome-extensions
 . ./helpers/softwares_extensions.sh
