@@ -12,6 +12,8 @@ SUCCESS='\033[1;32m' # Light GREEN
 WARNING='\033[0;33m' # YELLOW
 COMMAND='\033[1;34m' # Light BLUE
 
+clear
+
 warning_message()
 {
     echo
@@ -61,13 +63,13 @@ success_message()
 conf_message()
 {
     echo
-	printf "(@SED) Do you want to $1? (Y/n)"
+	printf "${STEP}(@SED) Do you want to $1? (Y/n)${NC}"
 }
 
 proceed_next()
 {
     echo
-	printf "(@SED) Do you want to proceed to the next step? (Y/n)"
+	printf "${STEP}(@SED) Do you want to proceed to the next step? (Y/n)${NC}"
 
     while true; do 
         read -p "" yn
@@ -112,4 +114,4 @@ Yn_wait()
     done
 }
 
-info_message "welcome, maximize your terminal window and focus what does it do :)"
+info_message "welcome, maximize your terminal window and focus on what does it do :)"

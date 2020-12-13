@@ -61,6 +61,7 @@ Yn_wait $commands
 # Install extra gnome-extensions
 clear
 cat config/extra_gnome-extensions_list.txt
+echo "NVIDIA GPU Stats Tool"
 echo
 conf_message "install these gnome extensions above"
 

@@ -1,4 +1,6 @@
 tree
+lsd
+bat
 baobab
 neofetch
 google-chrome

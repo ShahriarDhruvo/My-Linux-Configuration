@@ -20,14 +20,14 @@
 # done
 
 while true; do
-    warning_message "You better pay attention for this section....."
+    warning_message "You better pay attention for this section"
 	conf_message "set up global email and username for github"
     read -p "" yn
 
     case $yn in
         [Yy]*|"" )
             echo
-            echo -e ${COMMAND}"Running Commands: \"$*\""${NC}
+            echo -e ${COMMAND}"Running Commands: git config --global user.email email && git config --global user.name username"${NC}
             echo
             
             # Commands
@@ -46,7 +46,6 @@ while true; do
             
             echo
             echo -e "${SUCCESS}Email address $email is valid${NC}"
-            echo
 
 			git config --global user.email $email
 

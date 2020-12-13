@@ -101,3 +101,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export LS_COLORS="$LS_COLORS:ow=1;34;33:tw=1;34:"
