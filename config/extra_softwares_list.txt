@@ -1,10 +1,11 @@
 tree
+lsd
+bat
 baobab
 neofetch
 google-chrome
 chrome-remote-desktop
-brave-nightly-bin
-vlc
+brave
 code
 qbittorrent
 xdman
@@ -22,7 +23,11 @@ lollypop
 youtube-dl
 gnome-clocks
 htop
+nvtop
 whois
 noto-fonts-emoji
+ttf-ms-fonts
+ttf-vista-fonts
 postman-bin
 stacer
+vlc

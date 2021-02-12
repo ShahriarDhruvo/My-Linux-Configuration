@@ -1,4 +1,6 @@
 
 # Custom Alias
-alias l="ls -CF"
-alias ll="ls -alF"
+# alias cat="bat"
+alias l="lsd -F --group-dirs first"
+alias ls="lsd -F --group-dirs first"
+alias ll="lsd -AlF --group-dirs first"

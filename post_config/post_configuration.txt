@@ -4,7 +4,7 @@
 
 	122.One dark->
 		changed one:
-			Default color > text > #89E6B3
+			Default color > text > #89E6B3 (optional/you can use default colors from system theme)
 			palette color 4 > #2176C7
 			palette color 8 > #006488
 			

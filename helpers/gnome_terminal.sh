@@ -27,3 +27,9 @@ Yn_wait $commands
 # Updating database
 step_message "updating database"
 sudo updatedb
+
+
+# Dump current config
+# dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
+# Load the config
+# dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf

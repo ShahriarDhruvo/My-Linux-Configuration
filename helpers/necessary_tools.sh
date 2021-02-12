@@ -53,7 +53,7 @@ commands='
 step_message "upgrading the system & install necessary tools" &&
 sudo pacman -Syyu &&
 sudo pacman -S yay &&
-yay -S base-devel jq'
+yay -S base-devel'
 
 Yn_wait $commands
 
@@ -67,7 +67,7 @@ sudo mhwd -a pci nonfree 0300'
 Yn_wait $commands
 
 # Enable TLP (only for laptops)
-conf_message "add laptop configuration" 
+conf_message "add laptop TLP(Better battery management) configuration" 
 
 commands='
 step_message "enabling TLP" &&
