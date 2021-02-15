@@ -1,0 +1,24 @@
+[/]
+default='8b01602f-4d07-4275-8b29-6448adec8f81'
+list=['8b01602f-4d07-4275-8b29-6448adec8f81']
+
+[:8b01602f-4d07-4275-8b29-6448adec8f81]
+background-color='#1E1E21212727'
+bold-color='#5C5C63637070'
+bold-color-same-as-fg=true
+bold-is-bright=true
+default-size-columns=100
+default-size-rows=26
+font='NotoSansMono Nerd Font 11'
+foreground-color='rgb(137,230,230)'
+highlight-background-color='#'
+highlight-colors-set=true
+highlight-foreground-color='#'
+palette=['rgb(0,0,0)', 'rgb(224,108,117)', 'rgb(152,195,121)', 'rgb(209,154,102)', 'rgb(33,118,199)', 'rgb(198,120,221)', 'rgb(86,182,194)', 'rgb(171,178,191)', 'rgb(0,100,136)', 'rgb(224,108,117)', 'rgb(152,195,121)', 'rgb(209,154,102)', 'rgb(97,175,239)', 'rgb(198,120,221)', 'rgb(86,182,194)', 'rgb(255,254,254)']
+use-system-font=false
+use-theme-colors=false
+visible-name='One Dark'
+
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+default-size-columns=98
+default-size-rows=26
