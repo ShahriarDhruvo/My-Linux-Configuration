@@ -1,6 +1,4 @@
 tree
-lsd
-bat
 baobab
 neofetch
 google-chrome
@@ -10,11 +8,10 @@ code
 qbittorrent
 xdman
 handbrake
-kdenlive
 obs-studio
 sublime-text
 gimp
-libreoffice-fresh
+libreoffice-still
 mlocate
 timeshift
 python-pip
@@ -28,6 +25,8 @@ whois
 noto-fonts-emoji
 ttf-ms-fonts
 ttf-vista-fonts
+ttf-monaco
 postman-bin
 stacer
-vlc
+celluloid
+discord_arch_electron

@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/usr/bin/nautilus other-locations:///
+Name=This PC
+Comment=This is a custom desktop shortcut to navigate into drives directory in the file manager by SED
+Icon=/usr/share/icons/computer.png
+

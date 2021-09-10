@@ -10,3 +10,5 @@
 			
 			(MUST)	check the "show bold text with bright color"
 			
+3.Gnome Extension -> Coverflow alt-tab, Floating dock
+4.Uncomment the "Color" line from /etc/pacman.conf

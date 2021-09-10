@@ -6,7 +6,7 @@
 #     case $yn in
 #         [Yy]*|"" )
 # 			step_message "upgrading the system & install necessary tools"
-# 			sudo pacman -Syyu
+# 			sudo pacman -Syyuu
 # 			sudo pacman -S yay
 #             yay -S base-devel jq
 # 	       	break;;
