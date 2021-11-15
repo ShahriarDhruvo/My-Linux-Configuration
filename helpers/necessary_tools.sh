@@ -66,12 +66,25 @@ sudo mhwd -a pci nonfree 0300'
 
 Yn_wait $commands
 
-# Enable TLP (only for laptops)
-conf_message "add laptop TLP(Better battery management) configuration" 
+## Enable TLP (only for laptops)
+# conf_message "add laptop TLP(Better battery management) configuration" 
+
+# step_message "enabling TLP" &&
+# yay -S tlp &&
+# sudo tlp start
+
+# Enable Auto-cpufreq (only for laptops)
+conf_message "add laptop Auto-cpufreq(power management tool) configuration" 
+
+# For ubuntu & debian
+# commands='
+# step_message "enabling Auto-cpufreq" &&
+# git clone https://github.com/AdnanHodzic/auto-cpufreq.git &&
+# cd auto-cpufreq && sudo ./auto-cpufreq-installer &&
+# cd .. && sudo rm -rf auto-cpufreq'
 
 commands='
-step_message "enabling TLP" &&
-yay -S tlp &&
-sudo tlp start'
+step_message "enabling Auto-cpufreq" &&
+yay -S auto-cpufreq'
 
 Yn_wait $commands
