@@ -1,0 +1,8 @@
+(Only in GNOME) If you want to use wayland feature in any application then do it like this ->
+
+google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland
+
+
+Then use this command in the "Exec" of any app's .desktop file
+
+/usr/share/applications/google-chrome.desktop
