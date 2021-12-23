@@ -1,1 +1,15 @@
-wget --no-check-certificate https://raw.githubusercontent.com/fahadahammed/linux-bangla-fonts/master/dist/lbfi -O lbfi;chmod +x lbfi;./lbfi
+wget --no-check-certificate https://raw.githubusercontent.com/fahadahammed/linux-bangla-fonts/master/dist/lbfi -O lbfi; chmod +x lbfi; ./lbfi; rm -rf lbfi
+
+other fonts ->
+
+sudo add-apt-repository universe; sudo apt update; sudo apt install fonts-firacode
+
+sudo apt install fonts-cantarell
+
+sudo fc-cache -f -v
+
+-----> install language pack support
+sudo apt install language-pack-bn language-pack-gnome-bn language-pack-bn-base language-pack-gnome-bn-base language-pack-en language-pack-gnome-en language-pack-en-base language-pack-gnome-en-base
+
+check-language-support -l bn
+check-language-support -l en
